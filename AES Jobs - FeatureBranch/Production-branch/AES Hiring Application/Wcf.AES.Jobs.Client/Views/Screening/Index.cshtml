@@ -1,0 +1,56 @@
+﻿@model IEnumerable<WcfAESJobs.Client.WebService.Job_Application>
+
+@{
+    ViewBag.Title = "Screen Applications";
+}
+<style>
+    a {
+        text-decoration: none;
+    }
+
+    .panel-heading span {
+        margin-top: -20px;
+        font-size: 15px;
+    }
+
+    .row {
+        margin-top: 0px;
+        padding: 0 10px;
+    }
+
+    .clickable {
+        cursor: pointer;
+    }
+</style>
+
+<div class="curveunderheader"><span class="glyphicon glyphicon-folder-open"></span>&nbsp;&nbsp;Screen Applications</div>
+<br />
+
+<table class="table table-striped">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.JobTitle)
+        </th>
+
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.JobTitle)
+        </td>
+
+        <td>
+            @Html.ActionLink("Grade Responses", "Grade", new { id=item.ID },new{@class="btn btn-default btn-sm"}) 
+        </td>
+    </tr>
+}
+
+</table>

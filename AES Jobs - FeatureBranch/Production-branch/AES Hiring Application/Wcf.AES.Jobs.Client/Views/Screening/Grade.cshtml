@@ -1,0 +1,48 @@
+﻿@model List<WcfAESJobs.Client.WebService.Question_Answer>
+@using WcfAESJobs.Client.WebService
+@{
+    ViewBag.Title = "Grade";
+}
+
+<div class="curveunderheader"><span class="glyphicon glyphicon-folder-open"></span>&nbsp;&nbsp;Grade Responses</div>
+<br />
+
+
+
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        
+
+        @for (int i = 0; i < Model.Count ; i++)
+        {
+            <div class="form-group col-sm-12">
+
+
+                <b>@Html.DisplayFor(m => Model[i].Question)</b>
+                    <br />
+                    @Html.DisplayFor(m => Model[i].Answer)
+                    <br />
+
+            </div>
+        } 
+        
+    </div>
+<td>
+    @Html.ActionLink("Pass Application", "SubmitGrade", new {result = AppStages.PhoneInterview, App_ID = @ViewBag.AppID}, new {@class = "btn btn-success btn-sm"})
+</td>
+    &nbsp;
+        <td>
+            @Html.ActionLink("Fail Application", "SubmitGrade", new { result = AppStages.Failed, App_ID = @ViewBag.AppID }, new { @class = "btn btn-danger btn-sm" })
+        </td>
+
+<br/>
+<div>
+    <br/>
+    @Html.ActionLink("Back to List", "Index", null, new {@class = "btn btn-default"})
+</div>
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

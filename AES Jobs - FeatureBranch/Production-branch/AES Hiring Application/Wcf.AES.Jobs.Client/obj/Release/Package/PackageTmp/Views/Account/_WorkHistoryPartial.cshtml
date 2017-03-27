@@ -1,0 +1,141 @@
+﻿@model WcfAESJobs.Client.Models.WorkHistoryModel
+
+
+<script type="text/javascript" src="/scripts/jquery.js"></script>
+<script type="text/javascript" src="/scripts/moment.min.js"></script>
+<script type="text/javascript" src="/scripts/bootstrap.min.js"></script>
+<script type="text/javascript" src="/scripts/bootstrap-datetimepicker.js"></script>
+<link rel="stylesheet" href="/Content/bootstrap-datetimepicker.css" />
+<link rel="stylesheet" href="~/Content/font-awesome.css" />
+
+
+<div class="editorRow">
+    @using (Html.BeginCollectionItem("WorkHistories"))
+    {
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.Title, new { @class = "col-md-2 control-label" })
+            <div class="col-md-6">
+                <div class='input-group'>
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-user"></span>
+                    </span>
+                    @Html.TextBoxFor(m => m.Title, new { @class = "form-control", required = "required" })
+                </div>
+            </div>
+            <div class="col-md-3"></div>
+
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.Employer, new { @class = "col-md-2 control-label" })
+            <div class="col-md-6">
+                <div class='input-group'>
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-user"></span>
+                    </span>
+                    @Html.TextBoxFor(m => m.Employer, new { @class = "form-control", required = "required" })
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.Location, new { @class = "col-md-2 control-label" })
+            <div class="col-md-6">
+                <div class='input-group'>
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-home"></span>
+                    </span>
+                    @Html.EditorFor(m => m.Location, new { htmlAttributes = new { @class = "form-control ", required = "required" } })
+                </div>
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.Description, new { @class = "col-md-2 control-label" })
+            <div class="col-md-6">
+                <div class='input-group'>
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-comment"></span>
+                    </span>
+                    @Html.TextAreaFor(m => m.Description, new { @class = "form-control", required = "required", maxlength = "1000" })
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.StartDate, new { @class = "col-md-2 control-label" })
+            <div class="col-md-6">
+                <div class='input-group date StartDate'>
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                    @Html.TextBoxFor(m => m.StartDate, "{0:MM/dd/yyyy}", new
+                    {
+                        @class = "form-control date StartDate",
+                        required = "required",
+                        @placeholder = "mm/dd/yyyy",
+                        @Autocomplete = "off"
+                    })
+                </div>
+            </div>
+
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.EndDate, new { @class = "col-md-2 control-label" })
+            <div class="col-md-6">
+                <div class='input-group date StartDate'>
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                    @Html.TextBoxFor(m => m.EndDate, "{0:MM/dd/yyyy}", new
+                    {
+                        @class = "form-control date StartDate",
+                        id = "IncludeEndDate",
+                        @placeholder = "mm/dd/yyyy",
+                        @Autocomplete = "off"
+                    })
+                </div>
+            </div>
+
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.Current, new { @class = "col-md-2 control-label" })
+            <div class="col-md-8">
+                <div class="checkbox">
+                    <label>
+                        @Html.CheckBoxFor(m => m.Current, new { htmlAttributes = new { @class = "form-control", id = "chkbxMGift" } })
+                    </label>
+                </div>
+                
+            </div>
+        </div>
+
+
+        @Html.HiddenFor(m => m.Id)
+
+        <a href="#" onclick="deleteContainer(event)" class="btn btn-sm btn-danger col-md-offset-2">Delete Work</a>
+        <hr>
+
+    }
+
+
+</div>
+
+
+
+<script>
+    $(document).ready(function () {
+        $(".StartDate").datetimepicker({ format: 'MM/DD/YYYY' });
+        $(".EndDate").datetimepicker({ format: 'MM/DD/YYYY' });
+
+
+    });
+</script>
+
+
+
+
+
+
+
+
+

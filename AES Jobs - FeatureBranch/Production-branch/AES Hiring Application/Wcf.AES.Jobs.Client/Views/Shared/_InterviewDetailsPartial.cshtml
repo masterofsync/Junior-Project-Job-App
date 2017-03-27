@@ -1,0 +1,62 @@
+﻿@model WcfAESJobs.Client.Models.InterviewModel
+
+<div>
+    <h4>InterviewModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+    </dl>
+</div>
+
+
+
+
+
+<h4>PreApplication Questions</h4>
+@foreach (var item in Model.PreApplicationQuestions)
+{
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Question)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Answer)
+        </td>
+
+
+    </tr>
+}
+
+<h4>Application Questions</h4>
+@foreach (var item in Model.ApplicationQuestions)
+{
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Question)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Answer)
+        </td>
+
+
+    </tr>
+}
+
+<h4>Phone Iterview Questions</h4>
+@foreach (var item in Model.PhoneInterviewQuestions)
+{
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Question)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Answer)
+        </td>
+
+
+    </tr>
+}
+
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfAESJobsClient", "Wcf.AES.Jobs.Client\WcfAESJobsClient.csproj", "{FEB4D96B-E727-4A3F-8D75-EDAFA71F7BA8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3A09779F-59A5-4F29-B4ED-0B043D1B8F8C} = {3A09779F-59A5-4F29-B4ED-0B043D1B8F8C}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfAESJobsClient.Tests", "Wcf.AES.Jobs.Client.Tests\WcfAESJobsClient.Tests.csproj", "{2A09E89E-1AC6-41E2-96C4-B7BDAEDDC0AC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3A09779F-59A5-4F29-B4ED-0B043D1B8F8C} = {3A09779F-59A5-4F29-B4ED-0B043D1B8F8C}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFAESJobs.WebService", "WCFAESJobs.WebService\WCFAESJobs.WebService.csproj", "{3A09779F-59A5-4F29-B4ED-0B043D1B8F8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfAESJobs.AccountLibrary", "WcfAESJobs.AccountLibrary\WcfAESJobs.AccountLibrary.csproj", "{387B9194-4811-4A5C-A497-F997ADCA7ADA}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://oitbarz.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Wcf.AES.Jobs.Client.Tests\\WcfAESJobsClient.Tests.csproj
+		SccProjectName1 = Wcf.AES.Jobs.Client.Tests
+		SccLocalPath1 = Wcf.AES.Jobs.Client.Tests
+		SccProjectUniqueName2 = Wcf.AES.Jobs.Client\\WcfAESJobsClient.csproj
+		SccProjectName2 = Wcf.AES.Jobs.Client
+		SccLocalPath2 = Wcf.AES.Jobs.Client
+		SccProjectUniqueName3 = WCFAESJobs.WebService\\WCFAESJobs.WebService.csproj
+		SccProjectName3 = WCFAESJobs.WebService
+		SccLocalPath3 = WCFAESJobs.WebService
+		SccProjectUniqueName4 = WcfAESJobs.AccountLibrary\\WcfAESJobs.AccountLibrary.csproj
+		SccProjectName4 = WcfAESJobs.AccountLibrary
+		SccLocalPath4 = WcfAESJobs.AccountLibrary
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Deploy|Any CPU = Deploy|Any CPU
+		Production|Any CPU = Production|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEB4D96B-E727-4A3F-8D75-EDAFA71F7BA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEB4D96B-E727-4A3F-8D75-EDAFA71F7BA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEB4D96B-E727-4A3F-8D75-EDAFA71F7BA8}.Deploy|Any CPU.ActiveCfg = Deploy|Any CPU
+		{FEB4D96B-E727-4A3F-8D75-EDAFA71F7BA8}.Deploy|Any CPU.Build.0 = Deploy|Any CPU
+		{FEB4D96B-E727-4A3F-8D75-EDAFA71F7BA8}.Production|Any CPU.ActiveCfg = Release|Any CPU
+		{FEB4D96B-E727-4A3F-8D75-EDAFA71F7BA8}.Production|Any CPU.Build.0 = Release|Any CPU
+		{FEB4D96B-E727-4A3F-8D75-EDAFA71F7BA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEB4D96B-E727-4A3F-8D75-EDAFA71F7BA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A09E89E-1AC6-41E2-96C4-B7BDAEDDC0AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A09E89E-1AC6-41E2-96C4-B7BDAEDDC0AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A09E89E-1AC6-41E2-96C4-B7BDAEDDC0AC}.Deploy|Any CPU.ActiveCfg = Deploy|Any CPU
+		{2A09E89E-1AC6-41E2-96C4-B7BDAEDDC0AC}.Deploy|Any CPU.Build.0 = Deploy|Any CPU
+		{2A09E89E-1AC6-41E2-96C4-B7BDAEDDC0AC}.Production|Any CPU.ActiveCfg = Production|Any CPU
+		{2A09E89E-1AC6-41E2-96C4-B7BDAEDDC0AC}.Production|Any CPU.Build.0 = Production|Any CPU
+		{2A09E89E-1AC6-41E2-96C4-B7BDAEDDC0AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A09E89E-1AC6-41E2-96C4-B7BDAEDDC0AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A09779F-59A5-4F29-B4ED-0B043D1B8F8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A09779F-59A5-4F29-B4ED-0B043D1B8F8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A09779F-59A5-4F29-B4ED-0B043D1B8F8C}.Deploy|Any CPU.ActiveCfg = Deploy|Any CPU
+		{3A09779F-59A5-4F29-B4ED-0B043D1B8F8C}.Deploy|Any CPU.Build.0 = Deploy|Any CPU
+		{3A09779F-59A5-4F29-B4ED-0B043D1B8F8C}.Production|Any CPU.ActiveCfg = Release|Any CPU
+		{3A09779F-59A5-4F29-B4ED-0B043D1B8F8C}.Production|Any CPU.Build.0 = Release|Any CPU
+		{3A09779F-59A5-4F29-B4ED-0B043D1B8F8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A09779F-59A5-4F29-B4ED-0B043D1B8F8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{387B9194-4811-4A5C-A497-F997ADCA7ADA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{387B9194-4811-4A5C-A497-F997ADCA7ADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{387B9194-4811-4A5C-A497-F997ADCA7ADA}.Deploy|Any CPU.ActiveCfg = Debug|Any CPU
+		{387B9194-4811-4A5C-A497-F997ADCA7ADA}.Deploy|Any CPU.Build.0 = Debug|Any CPU
+		{387B9194-4811-4A5C-A497-F997ADCA7ADA}.Production|Any CPU.ActiveCfg = Release|Any CPU
+		{387B9194-4811-4A5C-A497-F997ADCA7ADA}.Production|Any CPU.Build.0 = Release|Any CPU
+		{387B9194-4811-4A5C-A497-F997ADCA7ADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{387B9194-4811-4A5C-A497-F997ADCA7ADA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,53 @@
+﻿@model IEnumerable<WcfAESJobs.Client.WebService.Question_Answer>
+@using WcfAESJobs.Client.WebService
+@{
+    ViewBag.Title = "ReviewPhoneInterview";
+}
+
+<style>
+
+</style>
+
+<div class="curveunderheader"><span class="glyphicon glyphicon-folder-open"></span>&nbsp;&nbsp;Review Phone Interview</div>
+<br />
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Question)
+        </th>
+        <th>
+            Interviewer Comment
+        </th>
+        
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Question)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Answer)
+        </td>
+        
+
+    </tr>
+}
+
+</table>
+
+<td>
+    @Html.ActionLink("Pass Application", "SubmitGrade", new { result = AppStages.Interview, App_ID = @ViewBag.AppID }, new { @class = "btn btn-success btn-sm" })
+</td>
+    &nbsp;
+<td>
+    @Html.ActionLink("Fail Application", "SubmitGrade", new { result = AppStages.Failed, App_ID = @ViewBag.AppID }, new { @class = "btn btn-danger btn-sm" })
+</td>
+
+<br />
+<div>
+    <br />
+    @Html.ActionLink("Back to List", "PhoneScreen", null, new { @class = "btn btn-default" })
+</div>

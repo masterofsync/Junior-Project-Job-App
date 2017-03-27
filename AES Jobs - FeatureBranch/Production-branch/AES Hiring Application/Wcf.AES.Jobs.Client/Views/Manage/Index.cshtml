@@ -1,0 +1,190 @@
+﻿@model WcfAESJobs.Client.Models.IndexViewModel
+@{
+    ViewBag.Title = "Manage";
+}
+
+<div class="curveunderheader"><span class="glyphicon glyphicon-folder-open"></span>&nbsp;&nbsp;Profile</div>
+<br />
+
+<p class="text-success">@ViewBag.StatusMessage</p>
+<div>
+
+    <hr />
+    <form role="form" class="form-horizontal">
+        <div class="form-group">
+            @Html.LabelFor(model => model.UserInfo.Email, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.UserInfo.Email, new { @class = "form-control", @readonly = "readonly" })
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.UserInfo.First_Name, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.UserInfo.First_Name, new { @class = "form-control", @readonly = "readonly" })
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.UserInfo.Last_Name, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.UserInfo.Last_Name, new { @class = "form-control", @readonly = "readonly" })
+            </div>
+        </div>
+
+
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.UserInfo.Address1, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.UserInfo.Address1, new { @class = "form-control", @readonly = "readonly" })
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.UserInfo.Address2, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.UserInfo.Address2, new { @class = "form-control", @readonly = "readonly" })
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.UserInfo.City, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.UserInfo.City, new { @class = "form-control", @readonly = "readonly" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.UserInfo.State, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.UserInfo.State, new { @class = "form-control", @readonly = "readonly" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.UserInfo.Zip, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.UserInfo.Zip, new { @class = "form-control", @readonly = "readonly" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.UserInfo.Phone, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.UserInfo.Phone, new { @class = "form-control", @readonly = "readonly" })
+            </div>
+        </div>
+
+        @if (Model.Locations.Count > 0)
+        {
+            <div class="form-group">
+                @Html.LabelFor(model => model.Locations, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @foreach (var item in Model.Locations)
+                    {
+
+                        @Html.DisplayFor(modelItem => item.Location_Name)
+                        <br />
+                    }
+                </div>
+
+            </div>
+        }
+
+        <div class="form-group">
+            @Html.Label(" ", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-2">
+                @if (Model.HasPassword)
+                {
+                    @Html.ActionLink("Edit Your Profile", "ChangeInfo", "", new { @class = "btn btn-default btn-sm" })
+
+                }
+                else
+                {
+                    @Html.ActionLink("Create", "SetPassword", "", new { @class = "btn btn-default btn-sm" })
+                }
+                </div>
+                <div class="col-md-2">
+
+                    @if (Model.HasPassword)
+                    {
+                        @Html.ActionLink("Change your password", "ChangePassword", "", new { @class = "btn btn-default btn-sm" })
+                    }
+                    else
+                    {
+                        @Html.ActionLink("Create", "SetPassword", "", new { @class = "btn btn-default btn-sm" })
+                    }
+
+                </div>
+
+        
+        </div>
+        
+            
+
+
+
+            @*<dt>External Logins:</dt>
+            <dd>
+                @Model.Logins.Count [
+                @Html.ActionLink("Manage", "ManageLogins") ]
+            </dd>*@
+                @*
+                Phone Numbers can used as a second factor of verification in a two-factor authentication system.
+
+                 See <a href="http://go.microsoft.com/fwlink/?LinkId=403804">this article</a>
+                    for details on setting up this ASP.NET application to support two-factor authentication using SMS.
+
+                 Uncomment the following block after you have set up two-factor authentication
+                *@
+                @*
+                    <dt>Phone Number:</dt>
+                    <dd>
+                        @(Model.PhoneNumber ?? "None") [
+                        @if (Model.PhoneNumber != null)
+                        {
+                            @Html.ActionLink("Change", "AddPhoneNumber")
+                            @: &nbsp;|&nbsp;
+                            @Html.ActionLink("Remove", "RemovePhoneNumber")
+                        }
+                        else
+                        {
+                            @Html.ActionLink("Add", "AddPhoneNumber")
+                        }
+                        ]
+                    </dd>
+
+                <dt>Two-Factor Authentication:</dt>
+                <dd>
+                    <p>
+                        There are no two-factor authentication providers configured. See <a href="http://go.microsoft.com/fwlink/?LinkId=403804">this article</a>
+                        for details on setting up this ASP.NET application to support two-factor authentication.
+                    </p>
+                    @if (Model.TwoFactor)
+                        {
+                            using (Html.BeginForm("DisableTwoFactorAuthentication", "Manage", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+                            {
+                                @Html.AntiForgeryToken()
+                                <text>Enabled
+                                <input type="submit" value="Disable" class="btn btn-link" />
+                                </text>
+                            }
+                        }
+                        else
+                        {
+                            using (Html.BeginForm("EnableTwoFactorAuthentication", "Manage", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+                            {
+                                @Html.AntiForgeryToken()
+                                <text>Disabled
+                                <input type="submit" value="Enable" class="btn btn-link" />
+                                </text>
+                            }
+                        }*@
+
+</form>
+</div>

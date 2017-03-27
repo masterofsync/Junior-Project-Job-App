@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:2236/LoginService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="ArrayOfRoleForm">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="RoleForm" nillable="true" type="tns:RoleForm" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfRoleForm" nillable="true" type="tns:ArrayOfRoleForm" />
+  <xs:complexType name="RoleForm">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ischecked" type="xs:boolean" />
+      <xs:element minOccurs="0" name="role" nillable="true" type="tns:URole" />
+    </xs:sequence>
+    <xs:attribute ref="ser:Id" />
+    <xs:attribute ref="ser:Ref" />
+  </xs:complexType>
+  <xs:element name="RoleForm" nillable="true" type="tns:RoleForm" />
+  <xs:complexType name="URole">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute ref="ser:Id" />
+    <xs:attribute ref="ser:Ref" />
+  </xs:complexType>
+  <xs:element name="URole" nillable="true" type="tns:URole" />
+  <xs:complexType name="ArrayOfLocationForm">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LocationForm" nillable="true" type="tns:LocationForm" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfLocationForm" nillable="true" type="tns:ArrayOfLocationForm" />
+  <xs:complexType name="LocationForm">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ischecked" type="xs:boolean" />
+      <xs:element minOccurs="0" name="location" nillable="true" type="tns:ULocation" />
+    </xs:sequence>
+    <xs:attribute ref="ser:Id" />
+    <xs:attribute ref="ser:Ref" />
+  </xs:complexType>
+  <xs:element name="LocationForm" nillable="true" type="tns:LocationForm" />
+  <xs:complexType name="ULocation">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ID" type="xs:int" />
+      <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute ref="ser:Id" />
+    <xs:attribute ref="ser:Ref" />
+  </xs:complexType>
+  <xs:element name="ULocation" nillable="true" type="tns:ULocation" />
+  <xs:complexType name="ArrayOfWorkHistory_User">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="WorkHistory_User" nillable="true" type="tns:WorkHistory_User" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfWorkHistory_User" nillable="true" type="tns:ArrayOfWorkHistory_User" />
+  <xs:complexType name="WorkHistory_User">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Current" type="xs:int" />
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Employer" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EndDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Location" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="StartDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute ref="ser:Id" />
+    <xs:attribute ref="ser:Ref" />
+  </xs:complexType>
+  <xs:element name="WorkHistory_User" nillable="true" type="tns:WorkHistory_User" />
+  <xs:complexType name="ArrayOfEducationHistory_User">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="EducationHistory_User" nillable="true" type="tns:EducationHistory_User" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfEducationHistory_User" nillable="true" type="tns:ArrayOfEducationHistory_User" />
+  <xs:complexType name="EducationHistory_User">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Degree" type="xs:int" />
+      <xs:element minOccurs="0" name="EducationLevel" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EndDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Institution" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Major" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="StartDate" type="xs:dateTime" />
+    </xs:sequence>
+    <xs:attribute ref="ser:Id" />
+    <xs:attribute ref="ser:Ref" />
+  </xs:complexType>
+  <xs:element name="EducationHistory_User" nillable="true" type="tns:EducationHistory_User" />
+</xs:schema>

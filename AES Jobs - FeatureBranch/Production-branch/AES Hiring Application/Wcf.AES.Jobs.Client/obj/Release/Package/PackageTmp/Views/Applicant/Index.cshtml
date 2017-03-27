@@ -1,0 +1,155 @@
+﻿@model WcfAESJobs.Client.ViewModels.JobPostingViewModel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<style>
+    @@media (max-width: @@screen-xs-min) {
+  .modal-xs { width: @@modal-sm; }
+}
+    @@media(min-width:992px) {
+
+
+        .modal-content {
+            /* new custom width */
+             margin: 0 0 0 -120px;
+            min-width: 800px;
+            /* must be half of the width, minus scrollbar on the left (30px) */
+        }
+    }
+
+    .input-group-s {
+        max-width: 280px;
+    }
+
+    .row hr {
+        margin: 1px 0;
+    }
+
+
+    .well {
+        border-color: cadetblue;
+        border-width: 2px;
+    }
+
+    .drop-shadow {
+        -webkit-box-shadow: 0 0 5px 2px rgba(0, 0, 0, .5);
+        box-shadow: 0 0 5px 2px rgba(0, 0, 0, .5);
+    }
+
+    .col-centered {
+        float: none;
+        margin: 0 auto;
+    }
+
+    
+</style>
+
+<div>
+    <div class="curveunderheader"><span class="glyphicon glyphicon-folder-open"></span>&nbsp;&nbsp;Job Postings</div>
+</div>
+<p class="text-success">@ViewBag.StatusMessage</p>
+
+@using (Html.BeginForm())
+{
+    <div class="row col-sm-3 col-md-3 col-sm-3 pull-right">
+        <form class="navbar-form" role="search" id="searchString">
+            <div class="input-group-s">
+                <select class="form-control" id="selectedLocation" name="selectedLocation">
+                    <option selected value="All Locations">All Locations</option>
+
+                    @foreach (var loc in Model.Locations)
+                    {
+                        <option value="@loc">@loc</option>
+                    }
+
+
+                </select>
+            </div>
+
+            <div class="input-group-s input-group">
+                <span>
+                    <input type="search" class="form-control" placeholder="All Jobs" name="searchString">
+                </span>
+                <span class="input-group-btn">
+                    <button class="btn btn-primary" type="submit"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                </span>
+
+
+
+
+            </div>
+
+        </form>
+    </div>
+    <br /><br />
+}
+<br /><br />
+
+<p></p>
+@if (Model.AllJobs.Any())
+{
+    <div class="row">
+
+        @foreach (var item in Model.AllJobs)
+        {
+            <div class="col-sm-6 col-md-4 col-lg-3">
+
+                <div id="Job" class=" text-center well well-sm drop-shadow">
+
+                    <input type="hidden" value="@item.Posting_ID" class="theValue"/>
+                    <b> @Html.DisplayFor(modelItem => item.Job_Title)</b>
+                    <br/>
+                    @Html.DisplayFor(modelItem => item.Job_Location_City) -
+                    @Html.DisplayFor(modelItem => item.Job_Location)
+                    <br/>
+                    Close Date: @item.Close_Date.ToString("MM-dd-yyyy")
+                    <br/>
+                    <br/>
+
+
+                    <hr/>
+                    <button type="button" class="next btn btn-info btn-sm" data-postingid="@item.Posting_ID" id="displayJobDetails">Details</button>&nbsp;&nbsp;&nbsp;&nbsp;
+                    @*@Html.ActionLink("Details", "Details", null, new { id = item.Posting_ID }, new { @class = "btn btn-info btn-sm" }) &nbsp;*@
+                    @Html.ActionLink("Apply", "Apply", "Application", new {PID = item.Posting_ID}, new {@class = "btn btn-info btn-sm"})
+                    <hr/>
+                </div>
+            </div>
+
+
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog ver">
+            <!-- Modal content-->
+            <div class="modal-content">
+            </div>
+        </div>
+    </div>
+            <!-- Modal -->
+        }
+    </div>
+}
+else
+{
+    <div class="alert alert-danger text-center">No Job Posting Found. Please search again!</div>
+}
+
+<script>
+    $(document).ready(function () {
+        $('.next').click(function () {
+            $.ajax({
+                type: "GET",
+                url: '@Url.Action("ShowDetails","Applicant")',
+                data: { id: $(this).data('postingid') },
+                success: function (data) {
+                    $('.modal-content').html(data);
+                    $("#myModal").modal('show');
+                },
+                error: function (data) {
+                    $('.modal-content').html(data);
+                    $("#myModal").modal('show');
+                }
+            });
+        });
+    });
+</script>

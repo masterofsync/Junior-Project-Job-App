@@ -1,0 +1,437 @@
+﻿@model WcfAESJobs.Client.Models.RegisterViewModel
+@using reCAPTCHA.MVC
+@{
+    ViewBag.Title = "Register";
+}
+
+
+<script type="text/javascript" src="/scripts/moment.min.js"></script>
+<script type="text/javascript" src="/scripts/bootstrap.min.js"></script>
+<script type="text/javascript" src="/scripts/bootstrap-datetimepicker.js"></script>
+<link rel="stylesheet" href="/Content/bootstrap-datetimepicker.css" />
+<link rel="stylesheet" href="~/Content/font-awesome.css" />
+
+
+
+<link href="@Url.Content("~/Content/jquery.steps.css")" rel="stylesheet" type="text/css" />
+<style>
+    hr {
+        border-style: solid;
+    }
+
+    form label.error {
+        font: 10px Tahoma,sans-serif;
+        color: #ED7476;
+        margin-left: 5px;
+        display: inline;
+    }
+
+    @@media (max-width: 700px) {
+        .wizard > .steps > ul > li {
+            width: 50%;
+        }
+
+        .wizard > .steps a,
+        .wizard > .steps a:hover,
+        .wizard > .steps a:active {
+            margin-top: 0.5em;
+        }
+
+        .wizard.vertical > .steps,
+        .wizard.vertical > .actions {
+            display: block;
+            float: none;
+            width: 100%;
+        }
+
+        .wizard.vertical > .content {
+            display: block;
+            float: none;
+            margin: 0 0.5em 0.5em;
+            width: auto;
+        }
+    }
+
+    @@media (max-width: 480px) {
+        .wizard > .steps > ul > li {
+            width: 100%;
+        }
+    }
+
+    .curveunderheader {
+        border-bottom-left-radius: .5em;
+        border-bottom-right-radius: .5em;
+        margin-top: 0;
+        min-height: 40px;
+        padding: .5%;
+        padding-left: 1%;
+        color: #2d6987;
+        background-color: #d9edf7;
+        font-size: 20px;
+    }
+</style>
+<div class="curveunderheader"><span class="glyphicon glyphicon-folder-open"></span>&nbsp;&nbsp;Register for an Account</div>
+<br />@Html.ValidationSummary("", new { @class = "text-danger" })
+
+@using (Html.BeginForm("Register", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form", id = "RegisterForm" }))
+{
+    @Html.AntiForgeryToken()
+    <h3>Account Details</h3>
+    <hr />
+    <fieldset>
+        <legend>Account Information</legend>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.Email, new { @class = "col-md-2 control-label", })
+            <div class="col-md-10">
+                <div class='input-group'>
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-envelope"></span>
+                    </span>
+                    @Html.TextBoxFor(m => m.Email, new { @class = "form-control", required = "required" })
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.Password, new { @class = "col-md-2 control-label required" })
+            <div class="col-md-10">
+                <div class='input-group'>
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-lock"></span>
+                    </span>
+                    @Html.PasswordFor(m => m.Password, new { @class = "form-control", required = "required" })
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.ConfirmPassword, new { @class = "col-md-2 control-label required" })
+            <div class="col-md-10">
+                <div class='input-group'>
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-lock"></span>
+                    </span>
+                    @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control", required = "required" })
+                </div>
+            </div>
+        </div>
+    </fieldset>
+
+    <h3>Profile</h3>
+    <fieldset>
+        <legend>Profile Information</legend>
+        <div class="form-group">
+            @Html.LabelFor(m => m.First_Name, new { @class = "col-md-2 control-label" })
+            <div class="col-md-10">
+                <div class='input-group'>
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-user"></span>
+                    </span>
+                    @Html.TextBoxFor(m => m.First_Name, new { @class = "form-control", required = "required" })
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.Last_Name, new { @class = "col-md-2 control-label" })
+            <div class="col-md-10">
+                <div class='input-group'>
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-user"></span>
+                    </span>
+                    @Html.TextBoxFor(m => m.Last_Name, new { @class = "form-control", required = "required" })
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.Address1, new { @class = "col-md-2 control-label" })
+            <div class="col-md-10">
+                <div class='input-group'>
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-home"></span>
+                    </span>
+                    @Html.TextBoxFor(m => m.Address1, new { @class = "form-control", required = "required" })
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.Address2, new { @class = "col-md-2 control-label" })
+            <div class="col-md-10">
+                <div class='input-group'>
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-home"></span>
+                    </span>
+                    @Html.TextBoxFor(m => m.Address2, new { @class = "form-control" })
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.City, new { @class = "col-md-2 control-label" })
+            <div class="col-md-10">
+                <div class='input-group'>
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-home"></span>
+                    </span>
+                    @Html.TextBoxFor(m => m.City, new { @class = "form-control", required = "required" })
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.State, new { @class = "col-md-2 control-label" })
+            <div class="col-md-10">
+                <div class='input-group'>
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-map-marker"></span>
+                    </span>
+                    @Html.DropDownList("State", null, new { @class = "form-control", required = "required" })
+                </div>
+                @Html.ValidationMessageFor(m => m.State)
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.Zip, new { @class = "col-md-2 control-label" })
+            <div class="col-md-10">
+                <div class='input-group'>
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-home"></span>
+                    </span>
+                    @Html.TextBoxFor(m => m.Zip, new { @class = "form-control", required = "required" })
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.Phone, new { @class = "col-md-2 control-label" })
+            <div class="col-md-10">
+                <div class='input-group'>
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-phone"></span>
+                    </span>
+                    @Html.TextBoxFor(m => m.Phone, new { @class = "form-control", required = "required" })
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.DOB, new { @class = "col-md-2 control-label" })
+            <div class="col-md-10">
+                <div class='input-group date DOB'>
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                    @Html.TextBoxFor(m => m.DOB, "{0:MM/dd/yyyy}", new
+                   {
+                       @class = "form-control date DOB",
+                       @placeholder = "mm/dd/yyyy",
+                       @Autocomplete = "off",
+                       required = "required"
+                   })
+                </div>
+            </div>
+        </div>
+
+        <br />
+        @*<div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" class="btn btn-default" value="Register" />
+                </div>
+            </div>*@
+    </fieldset>
+
+    <h3>Work History</h3>
+    <fieldset>
+        <legend>Work Information</legend>
+
+
+        <div id="editorRows">
+
+
+            @if (Model.WorkHistory.Capacity > 0)
+            {
+                foreach (var item in Model.WorkHistory)
+                {
+                    Html.RenderPartial("_WorkHistoryPartial", item, new ViewDataDictionary(ViewData)
+                    {
+                        {"prefix", "WorkHistories"}
+                    });
+                    <hr>
+                }
+            }
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-1">
+                <div id="editorRows">
+                    @Html.ActionLink("Add Work", "BlankEditorRow", null, new { @class = "btn btn-info btn-sm ", id = "addItem" })
+
+                </div>
+            </div>
+            <br />
+        </div>
+    </fieldset>
+
+    <h3>Education History</h3>
+    <fieldset>
+        <legend>Education Information</legend>
+
+        <div id="EducationRows">
+
+
+            @if (Model.EducationHistory.Capacity > 0)
+            {
+                foreach (var item in Model.EducationHistory)
+                {
+                    Html.RenderPartial("_EducationHistoryPartial", item, new ViewDataDictionary(ViewData)
+                    {
+                        {"prefix", "EducationHistories"}
+                    });
+
+                }
+            }
+
+
+
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-1">
+                <div id="EducationRows">
+                    @Html.ActionLink("Add Education", "BlankEducationRow", null, new { @class = "btn btn-info btn-sm ", id = "addEducation" })
+
+                </div>
+                <br />
+                <div class="form-group">
+
+                    <div class="col-md-10">
+                        @Html.Recaptcha()
+                        @Html.ValidationMessage("ReCaptcha")
+                    </div>
+                    <br />
+                </div>
+            </div>
+        </div>
+    </fieldset>
+}
+
+
+
+<script src="@Url.Content("~/Scripts/jquery.validate.min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/jquery.steps.js")" type="text/javascript"></script>
+
+
+
+<script>
+
+    $(document).ready(function () {
+        
+
+   
+        $("#addItem").click(function () {
+            $.ajax({
+                url: this.href,
+                cache: false,
+                success: function (partialView) { $("#editorRows").append(partialView); adjustIframeHeight(); resizeJquerySteps(); }
+            });
+            return false;
+        });
+        $("#addEducation").click(function () {
+            $.ajax({
+                url: this.href,
+                cache: false,
+                success: function (partialView) { $("#EducationRows").append(partialView); adjustIframeHeight(); resizeJquerySteps(); }
+            });
+            return false;
+        });
+        $(".DOB").datetimepicker({ format: 'MM/DD/YYYY' });
+
+
+    });
+    function deleteContainer(evt) {
+        evt = evt || window.event;
+        var target = evt.target || evt.srcElement;
+        target.parentNode.parentNode.removeChild(target.parentNode);
+
+        adjustIframeHeight(); resizeJquerySteps();
+    };
+
+
+    var form = $("#RegisterForm").show();
+    function get_action(form) {
+        var v = window.grecaptcha.getResponse();
+        if (v.length === 0) {
+            document.getElementById('captcha').innerHTML = "You can't leave Captcha Code empty";
+            return false;
+        }
+        if (v.length !== 0) {
+            document.getElementById('captcha').innerHTML = "Captcha completed";
+            return true;
+        }
+    }
+
+
+    function resizeJquerySteps() {
+        $('.wizard .content').animate({ height: $('.body.current').outerHeight() }, "slow");
+    }
+
+    function adjustIframeHeight() {
+        var $body = $('body'),
+            $iframe = $body.data('iframe.fv');
+        if ($iframe) {
+            // Adjust the height of iframe
+            $iframe.height($body.height());
+        }
+    }
+    form.steps({
+        headerTag: "h3",
+        bodyTag: "fieldset",
+        transitionEffect: "slideLeft",
+        onStepChanging: function (event, currentIndex, newIndex) {
+            $("#RegisterForm").val();
+            // Allways allow previous action even if the current form is not valid!
+            if (currentIndex > newIndex) {
+                return true;
+            }
+            // Forbid next action on "Warning" step if the user is to young
+            if (newIndex === 4) {
+                return false;
+            }
+            // Needed in some cases if the user went back (clean up)
+            if (currentIndex < newIndex) {
+                // To remove error styles
+                form.find(".body:eq(" + newIndex + ") label.error").remove();
+                form.find(".body:eq(" + newIndex + ") .error").removeClass("error");
+            }
+            form.validate().settings.ignore = ":disabled,:hidden";
+          
+         
+            return form.valid();
+        },
+        onStepChanged: function (event, currentIndex, priorIndex) {
+            // Used to skip the "Warning" step if the user is old enough.
+            //if (currentIndex === 2) {
+            //    form.steps("next");
+            //}
+            // Used to skip the "Warning" step if the user is old enough and wants to the previous step.
+            //if (currentIndex === 2 && priorIndex === 3) {
+            //    form.steps("previous");
+            //}
+        
+
+        },
+        onFinishing: function (event, currentIndex) {
+            form.valid();
+            $("#RegisterForm").val();
+
+    
+            form.validate().settings.ignore = ":disabled,:hidden";
+
+            return form.valid();
+        },
+        onFinished: function (event, currentIndex) {
+            //$("#RegisterForm").submit(function (event) {
+            //    $("#RegisterForm").text("Form has been submitted!");
+            //    event.preventDefault();
+            //});
+
+            var form = $(this);
+
+            // Submit form input
+            form.submit();
+            //$("#RegisterForm").text("Form has been submitted!");
+        }
+    });
+</script>

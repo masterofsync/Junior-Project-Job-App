@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/WCFAESJobs.WebService" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/WCFAESJobs.WebService" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:2236/JobService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="ArrayOfOpenJobs">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="OpenJobs" nillable="true" type="tns:OpenJobs" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfOpenJobs" nillable="true" type="tns:ArrayOfOpenJobs" />
+  <xs:complexType name="OpenJobs">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Close_Date" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Job_Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Job_ID" type="xs:int" />
+      <xs:element minOccurs="0" name="Job_Location" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Job_Location_City" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Job_Qualification" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Job_Title" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Posting_ID" type="xs:int" />
+      <xs:element minOccurs="0" name="status" type="tns:PostingStatus" />
+    </xs:sequence>
+    <xs:attribute ref="ser:Id" />
+    <xs:attribute ref="ser:Ref" />
+  </xs:complexType>
+  <xs:element name="OpenJobs" nillable="true" type="tns:OpenJobs" />
+  <xs:simpleType name="PostingStatus">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="NotActive" />
+      <xs:enumeration value="Active" />
+      <xs:enumeration value="Submitted" />
+      <xs:enumeration value="All" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="PostingStatus" nillable="true" type="tns:PostingStatus" />
+  <xs:complexType name="ArrayOfStoreLocations">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="StoreLocations" nillable="true" type="tns:StoreLocations" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfStoreLocations" nillable="true" type="tns:ArrayOfStoreLocations" />
+  <xs:complexType name="StoreLocations">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Location_City" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Location_ID" type="xs:int" />
+      <xs:element minOccurs="0" name="Location_Name" nillable="true" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute ref="ser:Id" />
+    <xs:attribute ref="ser:Ref" />
+  </xs:complexType>
+  <xs:element name="StoreLocations" nillable="true" type="tns:StoreLocations" />
+  <xs:complexType name="ArrayOfJobTemplates">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="JobTemplates" nillable="true" type="tns:JobTemplates" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfJobTemplates" nillable="true" type="tns:ArrayOfJobTemplates" />
+  <xs:complexType name="JobTemplates">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Job_Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Job_ID" type="xs:int" />
+      <xs:element minOccurs="0" name="Job_Qualifications" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Job_Questions" nillable="true" type="tns:ArrayOfQuestion" />
+      <xs:element minOccurs="0" name="Job_Title" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Phone_Questions" nillable="true" type="tns:ArrayOfQuestion" />
+    </xs:sequence>
+    <xs:attribute ref="ser:Id" />
+    <xs:attribute ref="ser:Ref" />
+  </xs:complexType>
+  <xs:element name="JobTemplates" nillable="true" type="tns:JobTemplates" />
+  <xs:complexType name="ArrayOfQuestion">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Question" nillable="true" type="tns:Question" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfQuestion" nillable="true" type="tns:ArrayOfQuestion" />
+  <xs:complexType name="Question">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="C_Answer" type="tns:CorrectAnswer" />
+      <xs:element minOccurs="0" name="FullQuestion" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="QuestionID" type="xs:int" />
+      <xs:element minOccurs="0" name="QuestionTitle" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Type" type="tns:QuestionType" />
+    </xs:sequence>
+    <xs:attribute ref="ser:Id" />
+    <xs:attribute ref="ser:Ref" />
+  </xs:complexType>
+  <xs:element name="Question" nillable="true" type="tns:Question" />
+  <xs:simpleType name="CorrectAnswer">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="No" />
+      <xs:enumeration value="Yes" />
+      <xs:enumeration value="None" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="CorrectAnswer" nillable="true" type="tns:CorrectAnswer" />
+  <xs:simpleType name="QuestionType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Pre Application" />
+      <xs:enumeration value="Application" />
+      <xs:enumeration value="Phone Interview" />
+      <xs:enumeration value="Interview Comment" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="QuestionType" nillable="true" type="tns:QuestionType" />
+  <xs:complexType name="ArrayOfQuestionForm">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="QuestionForm" nillable="true" type="tns:QuestionForm" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfQuestionForm" nillable="true" type="tns:ArrayOfQuestionForm" />
+  <xs:complexType name="QuestionForm">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="checkedQuestion" type="xs:boolean" />
+      <xs:element minOccurs="0" name="question" nillable="true" type="tns:Question" />
+    </xs:sequence>
+    <xs:attribute ref="ser:Id" />
+    <xs:attribute ref="ser:Ref" />
+  </xs:complexType>
+  <xs:element name="QuestionForm" nillable="true" type="tns:QuestionForm" />
+  <xs:complexType name="Job_Application">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ApplicantID" type="xs:int" />
+      <xs:element minOccurs="0" name="ApplicantName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ID" type="xs:int" />
+      <xs:element minOccurs="0" name="JobID" type="xs:int" />
+      <xs:element minOccurs="0" name="JobTitle" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Location" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PostingID" type="xs:int" />
+      <xs:element minOccurs="0" name="Stage" type="xs:int" />
+      <xs:element minOccurs="0" name="StageDescription" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="StageName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserID" nillable="true" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute ref="ser:Id" />
+    <xs:attribute ref="ser:Ref" />
+  </xs:complexType>
+  <xs:element name="Job_Application" nillable="true" type="tns:Job_Application" />
+  <xs:simpleType name="AppStages">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Failed" />
+      <xs:enumeration value="Submitted" />
+      <xs:enumeration value="PhoneInterview" />
+      <xs:enumeration value="Interview" />
+      <xs:enumeration value="Hired" />
+      <xs:enumeration value="Waiting" />
+      <xs:enumeration value="PhoneInterviewReview" />
+      <xs:enumeration value="InterviewReview" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="AppStages" nillable="true" type="tns:AppStages" />
+  <xs:complexType name="ArrayOfJob_Application">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Job_Application" nillable="true" type="tns:Job_Application" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfJob_Application" nillable="true" type="tns:ArrayOfJob_Application" />
+  <xs:complexType name="ArrayOfQuestion_Answer">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Question_Answer" nillable="true" type="tns:Question_Answer" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfQuestion_Answer" nillable="true" type="tns:ArrayOfQuestion_Answer" />
+  <xs:complexType name="Question_Answer">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Answer" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Question" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="QuestionID" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Question_Answer" nillable="true" type="tns:Question_Answer" />
+  <xs:complexType name="NewPosting">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Close_Date" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Job_ID" type="xs:int" />
+      <xs:element minOccurs="0" name="Location_ID" type="xs:int" />
+      <xs:element minOccurs="0" name="Status" type="tns:PostingStatus" />
+    </xs:sequence>
+    <xs:attribute ref="ser:Id" />
+    <xs:attribute ref="ser:Ref" />
+  </xs:complexType>
+  <xs:element name="NewPosting" nillable="true" type="tns:NewPosting" />
+  <xs:complexType name="QuestionIDJobID">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Job_ID" type="xs:int" />
+      <xs:element minOccurs="0" name="QuestionID" type="xs:int" />
+    </xs:sequence>
+    <xs:attribute ref="ser:Id" />
+    <xs:attribute ref="ser:Ref" />
+  </xs:complexType>
+  <xs:element name="QuestionIDJobID" nillable="true" type="tns:QuestionIDJobID" />
+  <xs:complexType name="ArrayOfAnswer">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Answer" nillable="true" type="tns:Answer" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfAnswer" nillable="true" type="tns:ArrayOfAnswer" />
+  <xs:complexType name="Answer">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Answer_Text" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Application_ID" type="xs:int" />
+      <xs:element minOccurs="0" name="ID" type="xs:int" />
+      <xs:element minOccurs="0" name="Question_ID" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Answer" nillable="true" type="tns:Answer" />
+</xs:schema>

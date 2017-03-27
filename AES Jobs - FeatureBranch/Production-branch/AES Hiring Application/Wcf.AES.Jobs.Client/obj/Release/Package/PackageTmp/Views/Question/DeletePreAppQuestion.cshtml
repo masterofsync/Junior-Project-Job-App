@@ -1,0 +1,41 @@
+﻿@model WcfAESJobs.Client.WebService.Question
+
+@{
+    ViewBag.Title = "DeletePreAppQuestion";
+}
+
+<div class="curveunderheader"><span class="glyphicon glyphicon-folder-open"></span>&nbsp;&nbsp;Delete Pre App Question</div>
+<br />
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Title
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.QuestionTitle)
+        </dd>
+        <dt>
+            Full Question
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FullQuestion)
+        </dd>
+
+
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index",null,new{@clas="btn btn-default"})
+        </div>
+    }
+</div>

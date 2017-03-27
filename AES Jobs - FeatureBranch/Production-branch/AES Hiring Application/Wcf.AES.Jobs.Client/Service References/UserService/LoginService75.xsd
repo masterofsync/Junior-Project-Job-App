@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/WCFAESJobs.WebService" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/WCFAESJobs.WebService" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:2236/LoginService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="ArrayOfStoreLocations">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="StoreLocations" nillable="true" type="tns:StoreLocations" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfStoreLocations" nillable="true" type="tns:ArrayOfStoreLocations" />
+  <xs:complexType name="StoreLocations">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Location_City" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Location_ID" type="xs:int" />
+      <xs:element minOccurs="0" name="Location_Name" nillable="true" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute ref="ser:Id" />
+    <xs:attribute ref="ser:Ref" />
+  </xs:complexType>
+  <xs:element name="StoreLocations" nillable="true" type="tns:StoreLocations" />
+</xs:schema>

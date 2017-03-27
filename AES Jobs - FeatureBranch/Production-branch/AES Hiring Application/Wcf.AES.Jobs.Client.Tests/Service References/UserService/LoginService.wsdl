@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="LoginService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:2236/LoginService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:2236/LoginService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:2236/LoginService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/WcfAESJobs.AccountLibrary" />
+      <xsd:import schemaLocation="http://localhost:2236/LoginService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/Microsoft.AspNet.Identity.EntityFramework" />
+      <xsd:import schemaLocation="http://localhost:2236/LoginService.svc?xsd=xsd4" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import schemaLocation="http://localhost:2236/LoginService.svc?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/" />
+      <xsd:import schemaLocation="http://localhost:2236/LoginService.svc?xsd=xsd6" namespace="http://schemas.datacontract.org/2004/07/WCFAESJobs.WebService" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ILoginService_FindById_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindById" />
+  </wsdl:message>
+  <wsdl:message name="ILoginService_FindById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILoginService_FindByName_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindByName" />
+  </wsdl:message>
+  <wsdl:message name="ILoginService_FindByName_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindByNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILoginService_Create_InputMessage">
+    <wsdl:part name="parameters" element="tns:Create" />
+  </wsdl:message>
+  <wsdl:message name="ILoginService_Create_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILoginService_FindByEmail_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindByEmail" />
+  </wsdl:message>
+  <wsdl:message name="ILoginService_FindByEmail_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindByEmailResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILoginService_GetRolesAsync_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRolesAsync" />
+  </wsdl:message>
+  <wsdl:message name="ILoginService_GetRolesAsync_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRolesAsyncResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILoginService_Update_InputMessage">
+    <wsdl:part name="parameters" element="tns:Update" />
+  </wsdl:message>
+  <wsdl:message name="ILoginService_Update_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILoginService_IsInRole_InputMessage">
+    <wsdl:part name="parameters" element="tns:IsInRole" />
+  </wsdl:message>
+  <wsdl:message name="ILoginService_IsInRole_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IsInRoleResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILoginService_GetRoleForm_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRoleForm" />
+  </wsdl:message>
+  <wsdl:message name="ILoginService_GetRoleForm_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRoleFormResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILoginService_AddUserToRoleByForm_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddUserToRoleByForm" />
+  </wsdl:message>
+  <wsdl:message name="ILoginService_AddUserToRoleByForm_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddUserToRoleByFormResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILoginService_GetLocationForm_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLocationForm" />
+  </wsdl:message>
+  <wsdl:message name="ILoginService_GetLocationForm_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLocationFormResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILoginService_AddUserToLocationByForm_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddUserToLocationByForm" />
+  </wsdl:message>
+  <wsdl:message name="ILoginService_AddUserToLocationByForm_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddUserToLocationByFormResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILoginService_GetLocationsByUserID_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLocationsByUserID" />
+  </wsdl:message>
+  <wsdl:message name="ILoginService_GetLocationsByUserID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLocationsByUserIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILoginService_GetWorkHistoryByUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetWorkHistoryByUser" />
+  </wsdl:message>
+  <wsdl:message name="ILoginService_GetWorkHistoryByUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetWorkHistoryByUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILoginService_GetEducationHistoryByUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetEducationHistoryByUser" />
+  </wsdl:message>
+  <wsdl:message name="ILoginService_GetEducationHistoryByUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetEducationHistoryByUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILoginService_AddEducationHistory_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddEducationHistory" />
+  </wsdl:message>
+  <wsdl:message name="ILoginService_AddEducationHistory_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddEducationHistoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILoginService_AddWorkHistory_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddWorkHistory" />
+  </wsdl:message>
+  <wsdl:message name="ILoginService_AddWorkHistory_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddWorkHistoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILoginService_DeleteWorkHistoryByID_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteWorkHistoryByID" />
+  </wsdl:message>
+  <wsdl:message name="ILoginService_DeleteWorkHistoryByID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteWorkHistoryByIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILoginService_DeleteEducationHistoryByID_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteEducationHistoryByID" />
+  </wsdl:message>
+  <wsdl:message name="ILoginService_DeleteEducationHistoryByID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteEducationHistoryByIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILoginService_UpdateEducationHistory_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateEducationHistory" />
+  </wsdl:message>
+  <wsdl:message name="ILoginService_UpdateEducationHistory_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateEducationHistoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILoginService_UpdateWorkHistory_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateWorkHistory" />
+  </wsdl:message>
+  <wsdl:message name="ILoginService_UpdateWorkHistory_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateWorkHistoryResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ILoginService">
+    <wsdl:operation name="FindById">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILoginService/FindById" message="tns:ILoginService_FindById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILoginService/FindByIdResponse" message="tns:ILoginService_FindById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindByName">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILoginService/FindByName" message="tns:ILoginService_FindByName_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILoginService/FindByNameResponse" message="tns:ILoginService_FindByName_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Create">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILoginService/Create" message="tns:ILoginService_Create_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILoginService/CreateResponse" message="tns:ILoginService_Create_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindByEmail">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILoginService/FindByEmail" message="tns:ILoginService_FindByEmail_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILoginService/FindByEmailResponse" message="tns:ILoginService_FindByEmail_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRolesAsync">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILoginService/GetRolesAsync" message="tns:ILoginService_GetRolesAsync_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILoginService/GetRolesAsyncResponse" message="tns:ILoginService_GetRolesAsync_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Update">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILoginService/Update" message="tns:ILoginService_Update_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILoginService/UpdateResponse" message="tns:ILoginService_Update_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IsInRole">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILoginService/IsInRole" message="tns:ILoginService_IsInRole_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILoginService/IsInRoleResponse" message="tns:ILoginService_IsInRole_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRoleForm">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILoginService/GetRoleForm" message="tns:ILoginService_GetRoleForm_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILoginService/GetRoleFormResponse" message="tns:ILoginService_GetRoleForm_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddUserToRoleByForm">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILoginService/AddUserToRoleByForm" message="tns:ILoginService_AddUserToRoleByForm_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILoginService/AddUserToRoleByFormResponse" message="tns:ILoginService_AddUserToRoleByForm_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLocationForm">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILoginService/GetLocationForm" message="tns:ILoginService_GetLocationForm_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILoginService/GetLocationFormResponse" message="tns:ILoginService_GetLocationForm_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddUserToLocationByForm">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILoginService/AddUserToLocationByForm" message="tns:ILoginService_AddUserToLocationByForm_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILoginService/AddUserToLocationByFormResponse" message="tns:ILoginService_AddUserToLocationByForm_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLocationsByUserID">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILoginService/GetLocationsByUserID" message="tns:ILoginService_GetLocationsByUserID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILoginService/GetLocationsByUserIDResponse" message="tns:ILoginService_GetLocationsByUserID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWorkHistoryByUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILoginService/GetWorkHistoryByUser" message="tns:ILoginService_GetWorkHistoryByUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILoginService/GetWorkHistoryByUserResponse" message="tns:ILoginService_GetWorkHistoryByUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetEducationHistoryByUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILoginService/GetEducationHistoryByUser" message="tns:ILoginService_GetEducationHistoryByUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILoginService/GetEducationHistoryByUserResponse" message="tns:ILoginService_GetEducationHistoryByUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddEducationHistory">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILoginService/AddEducationHistory" message="tns:ILoginService_AddEducationHistory_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILoginService/AddEducationHistoryResponse" message="tns:ILoginService_AddEducationHistory_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddWorkHistory">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILoginService/AddWorkHistory" message="tns:ILoginService_AddWorkHistory_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILoginService/AddWorkHistoryResponse" message="tns:ILoginService_AddWorkHistory_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteWorkHistoryByID">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILoginService/DeleteWorkHistoryByID" message="tns:ILoginService_DeleteWorkHistoryByID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILoginService/DeleteWorkHistoryByIDResponse" message="tns:ILoginService_DeleteWorkHistoryByID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteEducationHistoryByID">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILoginService/DeleteEducationHistoryByID" message="tns:ILoginService_DeleteEducationHistoryByID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILoginService/DeleteEducationHistoryByIDResponse" message="tns:ILoginService_DeleteEducationHistoryByID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateEducationHistory">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILoginService/UpdateEducationHistory" message="tns:ILoginService_UpdateEducationHistory_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILoginService/UpdateEducationHistoryResponse" message="tns:ILoginService_UpdateEducationHistory_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateWorkHistory">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILoginService/UpdateWorkHistory" message="tns:ILoginService_UpdateWorkHistory_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILoginService/UpdateWorkHistoryResponse" message="tns:ILoginService_UpdateWorkHistory_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_ILoginService" type="tns:ILoginService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="FindById">
+      <soap:operation soapAction="http://tempuri.org/ILoginService/FindById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FindByName">
+      <soap:operation soapAction="http://tempuri.org/ILoginService/FindByName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Create">
+      <soap:operation soapAction="http://tempuri.org/ILoginService/Create" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FindByEmail">
+      <soap:operation soapAction="http://tempuri.org/ILoginService/FindByEmail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRolesAsync">
+      <soap:operation soapAction="http://tempuri.org/ILoginService/GetRolesAsync" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update">
+      <soap:operation soapAction="http://tempuri.org/ILoginService/Update" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsInRole">
+      <soap:operation soapAction="http://tempuri.org/ILoginService/IsInRole" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRoleForm">
+      <soap:operation soapAction="http://tempuri.org/ILoginService/GetRoleForm" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddUserToRoleByForm">
+      <soap:operation soapAction="http://tempuri.org/ILoginService/AddUserToRoleByForm" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLocationForm">
+      <soap:operation soapAction="http://tempuri.org/ILoginService/GetLocationForm" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddUserToLocationByForm">
+      <soap:operation soapAction="http://tempuri.org/ILoginService/AddUserToLocationByForm" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLocationsByUserID">
+      <soap:operation soapAction="http://tempuri.org/ILoginService/GetLocationsByUserID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWorkHistoryByUser">
+      <soap:operation soapAction="http://tempuri.org/ILoginService/GetWorkHistoryByUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEducationHistoryByUser">
+      <soap:operation soapAction="http://tempuri.org/ILoginService/GetEducationHistoryByUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddEducationHistory">
+      <soap:operation soapAction="http://tempuri.org/ILoginService/AddEducationHistory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddWorkHistory">
+      <soap:operation soapAction="http://tempuri.org/ILoginService/AddWorkHistory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteWorkHistoryByID">
+      <soap:operation soapAction="http://tempuri.org/ILoginService/DeleteWorkHistoryByID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteEducationHistoryByID">
+      <soap:operation soapAction="http://tempuri.org/ILoginService/DeleteEducationHistoryByID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateEducationHistory">
+      <soap:operation soapAction="http://tempuri.org/ILoginService/UpdateEducationHistory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateWorkHistory">
+      <soap:operation soapAction="http://tempuri.org/ILoginService/UpdateWorkHistory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="LoginService">
+    <wsdl:port name="BasicHttpBinding_ILoginService" binding="tns:BasicHttpBinding_ILoginService">
+      <soap:address location="http://localhost:2236/LoginService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

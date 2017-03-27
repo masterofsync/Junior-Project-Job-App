@@ -1,0 +1,110 @@
+﻿@model WcfAESJobs.Client.Models.OpenJobModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<style>
+    
+</style>
+<div class="curveunderheader"><span class="glyphicon glyphicon-folder-open"></span>&nbsp;&nbsp;Job Posting Details</div>
+<br />
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Job Title
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Job.Job_Title)<br /> <br />
+        </dd>
+
+        <dt>
+            City
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Job.Job_Location_City)<br /> <br />
+        </dd>
+        <dt>
+            Location
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Job.Job_Location)<br /> <br />
+        </dd>
+        <dt>
+            Close Date
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Job.Close_Date)<br /> <br />
+        </dd>
+        @*<dt>
+            Job ID
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Job_ID)<br /> <br />
+        </dd>
+        
+        <dt>
+            Posting ID
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Posting_ID)<br /> <br />
+        </dd>*@
+
+        <dt>
+            Description
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Job.Job_Description)<br /> <br />
+        </dd>
+        <dt>
+            Qualifications
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Job.Job_Qualification)<br /> <br />
+        </dd>
+        @if (Model.ApplicationQuestions.Count > 0)
+        {
+            <dt>
+                Application Questions
+            </dt>
+
+            foreach (var item in Model.ApplicationQuestions)
+            {
+                <dd>
+                    @Html.DisplayFor(modelItem => item.FullQuestion)
+                </dd>
+            }
+
+        }
+        @if (Model.PhoneQuestions.Count > 0)
+        {
+            <br />
+            <dt>
+                Phone Questions
+            </dt>
+
+            foreach (var item in Model.PhoneQuestions)
+            {
+                <dd>
+                    @Html.DisplayFor(modelItem => item.FullQuestion)
+                </dd>
+            }
+            
+        }
+        <br />
+
+    </dl>
+</div>
+<p>
+    @*@Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |*@
+    <a href="javascript:void(0);" onclick="history.go(-1);" class="btn btn-default">Back to List</a>
+</p>

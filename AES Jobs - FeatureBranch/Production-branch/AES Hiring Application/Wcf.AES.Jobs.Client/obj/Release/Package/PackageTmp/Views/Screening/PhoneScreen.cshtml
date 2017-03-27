@@ -1,0 +1,138 @@
+﻿@model WcfAESJobs.Client.Models.PhoneInterviewModel
+
+@{
+    ViewBag.Title = "PhoneScreen";
+}
+<style>
+     a {
+        text-decoration: none;
+    }
+
+    .panel-heading span {
+        margin-top: -20px;
+        font-size: 15px;
+    }
+
+    .row {
+        margin-top: 0px;
+        padding: 0 10px;
+    }
+
+    .clickable {
+        cursor: pointer;
+    }
+</style>
+
+<div class="curveunderheader"><span class="glyphicon glyphicon-folder-open"></span>&nbsp;&nbsp;Phone Interview</div>
+
+<p class="text-success">@ViewBag.StatusMessage</p><br />
+<div class="row">
+    <div class="col-md-12">
+        <div class="panel panel-info">
+            <div class="panel-heading clickable">
+                <h3 class="panel-title"><b>Phone Interview Applications</b></h3>
+                <span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-up"></i></span>
+            </div>
+            <div class="panel-body">
+
+                <table class="table table-striped">
+                    <tr>
+                        <th>
+                            Application ID
+                        </th>
+                        <th>
+                            Job Title
+                        </th>
+                        <th></th>
+                    </tr>
+                    @foreach (var item in Model.PhoneInterviews)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.ID)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.JobTitle)
+                            </td>
+                            <td>
+                                @Html.ActionLink("Conduct Phone Interview", "ConductPhoneScreen", new { id = item.ID }, new { @class = "btn btn-default btn-sm" })
+                            </td>
+                        </tr>
+                    }
+
+
+                </table>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="panel panel-info">
+            <div class="panel-heading clickable">
+                <h3 class="panel-title"><b>Review Phone Interviews</b></h3>
+                <span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-up"></i></span>
+            </div>
+            <div class="panel-body">
+
+                <table class="table table-striped">
+                    <tr>
+                        <th>
+                            Application ID
+                        </th>
+                        <th>
+                            Job Title
+                        </th>
+                        <th></th>
+                    </tr>
+                    @foreach (var item in Model.PhoneInterviewReviews)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.ID)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.JobTitle)
+                            </td>
+                            <td>
+                                @Html.ActionLink("Review Phone Interview", "ReviewPhoneInterview", new { id = item.ID }, new { @class = "btn btn-default btn-sm" })
+                            </td>
+                        </tr>
+                    }
+
+
+                </table>
+
+          
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<script type="text/javascript">
+    jQuery(function ($) {
+        $('.panel-heading').on("click", function (e) {
+            if ($(this).hasClass('panel-collapsed')) {
+                // expand the panel
+                $(this).parents('.panel').find('.panel-body').slideDown();
+                $(this).removeClass('panel-collapsed');
+                $(this).find('i').removeClass('glyphicon-chevron-down').addClass('glyphicon-chevron-up');
+            }
+            else {
+                // collapse the panel
+                $(this).parents('.panel').find('.panel-body').slideUp();
+                $(this).addClass('panel-collapsed');
+                $(this).find('i').removeClass('glyphicon-chevron-up').addClass('glyphicon-chevron-down');
+            }
+        });
+    });
+</script>

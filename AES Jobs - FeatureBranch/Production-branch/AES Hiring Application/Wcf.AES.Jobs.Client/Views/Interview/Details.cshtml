@@ -1,0 +1,31 @@
+﻿@model WcfAESJobs.Client.Models.InterviewModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<style>
+   
+
+</style>
+<div class="curveunderheader"><span class="glyphicon glyphicon-folder-open"></span>&nbsp;&nbsp;Interview Details</div>
+<br />
+
+<div>
+    @Html.Partial("_InterviewDetails", Model)
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            @*@Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |*@
+            <a href="javascript:void(0);" onclick="history.go(-1);" class="btn btn-default">Back to List</a>
+            @if(Model.InterviewComment.answer.Length < 1)
+            {
+                @Html.ActionLink("Conduct Interview", "ConductInterview", "Interview", new { id = Model.JobApplication.ID }, new { @class = "btn btn-default" })
+            }
+            
+        </div>
+    </div>
+</div>
+

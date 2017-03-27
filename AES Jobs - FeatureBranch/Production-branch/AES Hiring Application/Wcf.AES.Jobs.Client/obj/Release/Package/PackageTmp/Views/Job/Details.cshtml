@@ -1,0 +1,112 @@
+﻿@model WcfAESJobs.Client.WebService.JobTemplates
+          
+
+@{
+    ViewBag.Title = "Details";
+    var AppQuestion = WcfAESJobs.Client.WebService.QuestionType.Application;
+    var PhoneQuestion = WcfAESJobs.Client.WebService.QuestionType.PhoneInterview;
+}
+
+<div class="curveunderheader"><span class="glyphicon glyphicon-folder-open"></span>&nbsp;&nbsp;Job Template Details</div>
+<br />
+
+
+<div>
+    
+    <hr />
+    
+    <dl class="dl-horizontal">
+        <dt>
+            Title
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Job_Title) <br /> <br />
+        </dd>
+        @*<dt>
+            Job ID
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Job_ID) <br /> <br />
+        </dd>*@
+        <dt>
+            Description
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Job_Description) <br /> <br />
+        </dd>
+        <dt>
+            Qualifications
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Job_Qualifications) <br/>
+        </dd>
+
+
+        @if (Model.Job_Questions.Length != 0)
+        {
+            <tr>
+                <br />
+            <dt>
+                Application Questions
+            </dt>
+            <th></th>
+            </tr>
+
+            foreach (var item in Model.Job_Questions)
+            {
+                <dd>
+                    @Html.DisplayFor(modelItem => item.FullQuestion)
+                </dd>
+            }
+
+
+        } 
+        
+        @if (Model.Phone_Questions.Length != 0)
+        {
+            <tr>
+                <br />
+            <dt>
+                Phone Questions
+            </dt>
+            <th></th>
+            </tr>
+
+            foreach (var item in Model.Phone_Questions)
+            {
+                <dd>
+                    @Html.DisplayFor(modelItem => item.FullQuestion)
+                </dd>
+            }
+
+
+        }
+        
+
+        <br />
+        <br />
+        <dd>
+            <p>
+                @Html.ActionLink("Back to List", "Index", null, new { @class = "btn btn-default" })&nbsp;
+                @Html.ActionLink("Edit Posting", "Edit", new { id = Model.Job_ID }, new { @class = "btn btn-default" })&nbsp;
+                @Html.ActionLink("Edit Application  Questions", "AddQuestionToJobByForm", "Question", new { id = Model.Job_ID, QType = AppQuestion }, new { @class = "btn btn-default" })
+                @Html.ActionLink("Edit Phone Questions", "AddQuestionToJobByForm", "Question", new { id = Model.Job_ID, QType = PhoneQuestion }, new { @class = "btn btn-default" })
+            </p>
+            <div>
+               @* @Html.ActionLink("Back to previous page", null, null, null, new { href = Request.UrlReferrer })*@
+            </div>
+        </dd>
+        
+
+
+    </dl>
+    
+</div>
+
+
+
+

@@ -1,0 +1,43 @@
+﻿@model IEnumerable<WcfAESJobs.Client.WebService.JobTemplates>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="curveunderheader"><span class="glyphicon glyphicon-folder-open"></span>&nbsp;&nbsp;Job Templates</div>
+<br />
+
+<p>
+    @Html.ActionLink("Create New Job Template", "Create", null, new { @class = "btn btn-default" })
+</p>
+<table class="table table-striped">
+    <tr>
+        @*<th>
+            Job ID
+        </th>*@
+        <th>
+            Job Title
+        </th>
+        <th>
+            Actions
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            @*<td>
+                @Html.DisplayFor(modelItem => item.Job_ID)
+            </td>*@
+            <td>
+                @Html.DisplayFor(modelItem => item.Job_Title)
+            </td>
+            <td>
+
+                @Html.ActionLink("Details & Edit", "Details", new { id = item.Job_ID }, new { @class = "btn-default btn btn-sm" }) &nbsp;
+                @Html.ActionLink("Delete", "Delete", new { id = item.Job_ID }, new { @class = "btn-default btn btn-sm" })
+            </td>
+        </tr>
+    }
+
+</table>

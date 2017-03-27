@@ -1,0 +1,60 @@
+﻿@model WcfAESJobs.Client.Models.InterviewModel
+@using WcfAESJobs.Client.WebService
+@{
+    ViewBag.Title = "ReviewInterview";
+}
+<style>
+    a {
+        text-decoration: none;
+    }
+
+    .panel-heading span {
+        margin-top: -20px;
+        font-size: 15px;
+    }
+
+    .row {
+        margin-top: 0px;
+        padding: 0 10px;
+    }
+
+    .clickable {
+        cursor: pointer;
+    }
+    .size12{
+        font-size:12px;
+    }
+   
+</style>
+<div class="curveunderheader"><span class="glyphicon glyphicon-folder-open"></span>&nbsp;&nbsp;Review Interview</div>
+<br />
+<div>
+    @Html.Partial("_InterviewDetails", Model)
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 size12">
+            <td>
+                @Html.ActionLink("  Hire  ", "SubmitGrade", new { result = AppStages.Hired, App_ID = Model.JobApplication.ID, returnURL = ViewBag.returnURL }, new { @class = "btn btn-success btn-sm" })
+            </td>
+            &nbsp;
+            <td>
+                @Html.ActionLink("WaitList", "SubmitGrade", new { result = AppStages.Waiting, App_ID = Model.JobApplication.ID, returnURL = ViewBag.returnURL }, new { @class = "btn btn-warning btn-sm" })
+            </td>
+            &nbsp;
+            <td>
+                @Html.ActionLink("  Fail  ", "SubmitGrade", new { result = AppStages.Failed, App_ID = Model.JobApplication.ID, returnURL = ViewBag.returnURL }, new { @class = "btn btn-danger btn-sm" })
+            </td>
+
+            <br />
+            <div>
+                <br />
+                <a href="javascript:void(0);" onclick="history.go(-1);" class="btn btn-default">Back to List</a>
+            </div>
+
+        </div>
+    </div>
+
+</div>

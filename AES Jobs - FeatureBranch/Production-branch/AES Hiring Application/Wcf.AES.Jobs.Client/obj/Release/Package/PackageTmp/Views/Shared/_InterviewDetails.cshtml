@@ -1,0 +1,298 @@
+﻿@model WcfAESJobs.Client.Models.InterviewModel
+
+<style>
+    a {
+        text-decoration: none;
+    }
+
+    .panel-heading span {
+        margin-top: -20px;
+        font-size: 15px;
+    }
+
+    .row {
+        margin-top: 0px;
+        padding: 0 10px;
+    }
+
+    .clickable {
+        cursor: pointer;
+    }
+</style>
+
+
+
+
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-info">
+                <div class="panel-heading clickable">
+                    <h3 class="panel-title"><b>Applicant Information</b></h3>
+                    <span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-up"></i></span>
+                </div>
+                <div class="panel-body">
+                    <h3>
+                        @Html.DisplayFor(model => Model.Applicant.FirstName) @Html.DisplayFor(model => Model.Applicant.LastName)
+                        
+                    </h3>
+                    <br />
+                    <b>Phone Number:  </b>@Html.DisplayFor(model => Model.Applicant.PhoneNumber)<br /><br />
+
+                    <b>Email:  </b>@Html.DisplayFor(model => Model.Applicant.Email)<br /> <br />
+
+                    
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-info panel-collapsed">
+                <div class="panel-heading clickable panel-collapsed">
+                    <h3 class="panel-title"><b>Posting Information</b></h3>
+                    <span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-down"></i></span>
+                </div>
+                <div class="panel-body" style="display:none">
+
+                    <h3>@Html.DisplayFor(model => Model.JobInformation.Job_Title)</h3><br />
+                    <b> Posting ID </b> @Html.DisplayFor(model => Model.JobApplication.PostingID) &nbsp;
+                    <b> Job ID </b> @Html.DisplayFor(model => Model.JobApplication.JobID)
+                    <br /><br/>
+                    <b> Location </b> @Html.DisplayFor(model => Model.JobApplication.Location)
+                    <br/><br />
+
+
+                    <b>Description</b><br />
+
+                    @Html.DisplayFor(model => Model.JobInformation.Job_Description)<br /> <br />
+
+                    <b>Qualifications</b><br />
+
+                    @Html.DisplayFor(model => Model.JobInformation.Job_Qualifications)<br /> <br />
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-info panel-collapsed">
+                <div class="panel-heading clickable panel-collapsed">
+                    <h3 class="panel-title"><b>Work History</b></h3>
+                    <span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-down"></i></span>
+                </div>
+                <div class="panel-body" style="display:none">
+                    @if (Model.WorkHistory.Any())
+                    {
+                        for (int i = 0; i < Model.WorkHistory.Count; i++)
+                        {
+
+
+                            <h3>@Html.DisplayFor(m => Model.WorkHistory[i].Title) &nbsp; - &nbsp; @Html.DisplayFor(m => Model.WorkHistory[i].Employer)</h3> 
+                            <b>Location:</b>
+                            @Html.DisplayFor(m => Model.WorkHistory[i].Location)
+                            <br /><br />
+                            <b>Description:</b>
+                            @Html.DisplayFor(m => Model.WorkHistory[i].Description)
+                            <br /><br />
+                            <b>Start Date:</b>
+                            @Html.DisplayFor(m => Model.WorkHistory[i].StartDate)
+                            <b>&nbsp; &nbsp; End Date:</b>
+                            @Html.DisplayFor(m => Model.WorkHistory[i].EndDate)
+                            <br /><br />
+                            <b>Current:</b>
+                            @Html.DisplayFor(m => Model.WorkHistory[i].Current)
+                            <hr />
+
+
+                        }
+                    }
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-info panel-collapsed">
+                <div class="panel-heading clickable panel-collapsed">
+                    <h3 class="panel-title"><b>Education History</b></h3>
+                    <span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-down"></i></span>
+                </div>
+                <div class="panel-body" style="display:none">
+
+                    @if (Model.EducationHistory.Any())
+                    {
+                        for (int i = 0; i < Model.EducationHistory.Count; i++)
+                        {
+
+                          <h3>@Html.DisplayFor(m => Model.EducationHistory[i].Major) &nbsp; - &nbsp; @Html.DisplayFor(m => Model.EducationHistory[i].Institution)</h3><br />
+                                    <b>Education Level:</b>
+                                    @Html.DisplayFor(m => Model.EducationHistory[i].EducationLevel)
+                                    <br /><br />
+                                    <b>Degree:</b>
+                                    @Html.DisplayFor(m => Model.EducationHistory[i].Degree)
+                                    <br /><br />
+                                    <b>Start Date:</b>
+                                    @Html.DisplayFor(m => Model.EducationHistory[i].StartDate) 
+                                    <b>&nbsp; &nbsp; End Date:</b>
+                                    @Html.DisplayFor(m => Model.EducationHistory[i].EndDate)
+
+                             <hr/>
+                        }
+                    }
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-info">
+                <div class="panel-heading clickable panel-collapsed">
+                    <h3 class="panel-title"><b>PreApplication Questions</b></h3>
+                    <span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-down"></i></span>
+                </div>
+                <div class="panel-body" style="display:none">
+                    <div class="form-horizontal">
+
+
+                        @for (int i = 0; i < Model.PreApplicationQuestions.Count; i++)
+                        {
+                            <div class="form-group col-sm-12">
+
+
+                                <b>@Html.DisplayFor(m => Model.PreApplicationQuestions[i].Question)</b>
+                                <br />
+                                @Html.DisplayFor(m => Model.PreApplicationQuestions[i].Answer)
+                                <br />
+
+                            </div>
+                        }
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-info">
+                <div class="panel-heading clickable panel-collapsed">
+                    <h3 class="panel-title"><b>Application Questions</b></h3>
+                    <span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-down"></i></span>
+                </div>
+                <div class="panel-body" style="display:none">
+
+
+
+                    @for (int i = 0; i < Model.ApplicationQuestions.Count; i++)
+                    {
+
+
+
+                        <b>@Html.DisplayFor(m => Model.ApplicationQuestions[i].Question)</b>
+                        <br />
+                        @Html.DisplayFor(m => Model.ApplicationQuestions[i].Answer)
+                        <br /><br />
+
+
+                    }
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-info">
+                <div class="panel-heading clickable panel-collapsed">
+                    <h3 class="panel-title"><b>Phone Interview Questions</b></h3>
+                    <span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-down"></i></span>
+                </div>
+                <div class="panel-body" style="display:none">
+                    <div class="form-horizontal">
+
+
+                        @for (int i = 0; i < Model.PhoneInterviewQuestions.Count; i++)
+                        {
+                            <div class="form-group col-sm-12">
+
+
+                                <b>@Html.DisplayFor(m => Model.PhoneInterviewQuestions[i].Question)</b>
+                                <br />
+                                @Html.DisplayFor(m => Model.PhoneInterviewQuestions[i].Answer)
+                                <br />
+
+                            </div>
+                        }
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-info">
+                <div class="panel-heading clickable panel-collapsed">
+                    <h3 class="panel-title"><b>Interview Comments</b></h3>
+                    <span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-down"></i></span>
+                </div>
+                <div class="panel-body" style="display:none">
+                    <div class="form-horizontal">
+
+                        @if (!Model.InterviewComment.answer.IsEmpty())
+                        {
+
+
+                            <dd>
+                                @Html.DisplayFor(model => Model.InterviewComment.answer)<br /> <br />
+                            </dd>
+
+                        }
+                        else
+                        {
+                            <div class="error">No Comments Yet!</div>
+                        }
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    jQuery(function ($) {
+        $('.panel-heading').on("click", function (e) {
+            if ($(this).hasClass('panel-collapsed')) {
+                // expand the panel
+                $(this).parents('.panel').find('.panel-body').slideDown();
+                $(this).removeClass('panel-collapsed');
+                $(this).find('i').removeClass('glyphicon-chevron-down').addClass('glyphicon-chevron-up');
+            }
+            else {
+                // collapse the panel
+                $(this).parents('.panel').find('.panel-body').slideUp();
+                $(this).addClass('panel-collapsed');
+                $(this).find('i').removeClass('glyphicon-chevron-up').addClass('glyphicon-chevron-down');
+            }
+        });
+    });
+</script>

@@ -1,0 +1,144 @@
+﻿@model WcfAESJobs.Client.Models.EducationHistoryModel
+
+
+<script type="text/javascript" src="/scripts/jquery.js"></script>
+<script type="text/javascript" src="/scripts/moment.min.js"></script>
+<script type="text/javascript" src="/scripts/bootstrap.min.js"></script>
+<script type="text/javascript" src="/scripts/bootstrap-datetimepicker.js"></script>
+<link rel="stylesheet" href="/Content/bootstrap-datetimepicker.css" />
+<link rel="stylesheet" href="~/Content/font-awesome.css" />
+
+<div class="EducationRow">
+    @using (Html.BeginCollectionItem("EducationHistories"))
+    {
+        <div class="form-group">
+
+            <div class="form-horizontal">
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                @Html.HiddenFor(model => model.Id)
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Institution, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        <div class='input-group'>
+                            <span class="input-group-addon">
+                                <span class="fa fa-university"></span>
+                            </span>
+                            @Html.EditorFor(model => model.Institution, new { htmlAttributes = new { @class = "form-control", required = "required" } })
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Major, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        <div class='input-group'>
+                            <span class="input-group-addon">
+                                <span class="glyphicon glyphicon-book"></span>
+                            </span>
+                            @Html.EditorFor(model => model.Major, new { htmlAttributes = new { @class = "form-control", required = "required" } })
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.EducationLevel, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        <div class='input-group'>
+                            <span class="input-group-addon">
+                                <span class="fa fa-bookmark"></span>
+                            </span>
+                            @Html.EditorFor(model => model.EducationLevel, new { htmlAttributes = new { @class = "form-control" } })
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.StartDate, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+
+                        <div class='input-group date StartDate'>
+                            <span class="input-group-addon">
+                                <span class="glyphicon glyphicon-calendar"></span>
+                            </span>
+                            @Html.TextBoxFor(m => m.StartDate, "{0:MM/dd/yyyy}", new
+                   {
+                       @class = "form-control date StartDate",
+                       id = "IncludeEndDate",
+                       required = "required",
+                       @placeholder = "mm/dd/yyyy",
+                       @Autocomplete = "off"
+                   })
+                            @*<input type='text' value=@Model.StartDate class="form-control date" name=@Model.StartDate id=@Model.StartDate />*@
+
+                        </div>
+
+                        @*@Html.TextBoxFor(m => m.StartDate, "{0:MM/dd/yyyy}", new
+                            {
+                                @class = "form-control date",
+                                id = "IncludeEndDate",
+                                @placeholder = "mm/dd/yyyy",
+                                @Autocomplete = "off"
+                            })*@
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.EndDate, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+
+                        <div class='input-group date EndDate'>
+                            <span class="input-group-addon">
+                                <span class="glyphicon glyphicon-calendar"></span>
+                            </span>
+                            @Html.TextBoxFor(m => m.EndDate, "{0:MM/dd/yyyy}", new
+                   {
+                       @class = "form-control date StartDate",
+                       id = "IncludeEndDate",
+                       @placeholder = "mm/dd/yyyy",
+                       @Autocomplete = "off"
+                   })
+                            @*<input type='text' value=@Model.EndDate class="form-control date" name=@Model.EndDate id=@Model.EndDate />*@
+
+                        </div>
+
+                        @*@Html.TextBoxFor(m => m.EndDate, "{0:MM/dd/yyyy}", new
+                            {
+                                @class = "form-control date",
+                                id = "IncludeEndDate",
+                                @placeholder = "mm/dd/yyyy",
+                                @Autocomplete = "off"
+                            })*@
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Degree, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-8">
+                        <div class="checkbox">
+                            <label>
+                                @Html.CheckBoxFor(model => model.Degree, new { @class = "checkbox" })
+                            </label>
+                        </div>
+
+                    </div>
+                </div>
+
+                <a href="#" onclick="deleteContainer(event)" class="btn btn-sm btn-danger col-md-offset-2">Delete</a>
+                <hr>
+            </div>
+        </div>
+    }
+
+</div>
+
+
+<script>
+    $(document)
+        .ready(function () {
+            $(".StartDate").datetimepicker({ format: 'MM/DD/YYYY' });
+            $(".EndDate").datetimepicker({ format: 'MM/DD/YYYY' });
+        });
+
+</script>
+

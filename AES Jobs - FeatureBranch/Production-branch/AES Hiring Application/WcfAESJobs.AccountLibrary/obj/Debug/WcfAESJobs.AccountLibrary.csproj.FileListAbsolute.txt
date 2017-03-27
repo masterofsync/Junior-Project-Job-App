@@ -1,0 +1,14 @@
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\WcfAESJobs.AccountLibrary\bin\Debug\WcfAESJobs.AccountLibrary.dll.config
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\WcfAESJobs.AccountLibrary\bin\Debug\WcfAESJobs.AccountLibrary.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\WcfAESJobs.AccountLibrary\bin\Debug\WcfAESJobs.AccountLibrary.pdb
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\WcfAESJobs.AccountLibrary\bin\Debug\EntityFramework.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\WcfAESJobs.AccountLibrary\bin\Debug\EntityFramework.SqlServer.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\WcfAESJobs.AccountLibrary\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\WcfAESJobs.AccountLibrary\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\WcfAESJobs.AccountLibrary\bin\Debug\EntityFramework.xml
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\WcfAESJobs.AccountLibrary\bin\Debug\EntityFramework.SqlServer.xml
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\WcfAESJobs.AccountLibrary\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\WcfAESJobs.AccountLibrary\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\WcfAESJobs.AccountLibrary\obj\Debug\WcfAESJobs.AccountLibrary.csprojResolveAssemblyReference.cache
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\WcfAESJobs.AccountLibrary\obj\Debug\WcfAESJobs.AccountLibrary.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\WcfAESJobs.AccountLibrary\obj\Debug\WcfAESJobs.AccountLibrary.pdb

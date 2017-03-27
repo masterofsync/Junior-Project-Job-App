@@ -1,0 +1,30 @@
+﻿@{
+    //if(this.User.IsInRole("HiringSpecialist"))
+   // {
+     //   Layout = "~/Views/Shared/_Layout_HiringSpecialist.cshtml";
+   // }
+    
+    
+    
+    if (this.User.IsInRole("SuperUser"))
+    {
+        Layout = "~/Views/Shared/_Layout_SuperUser.cshtml";
+    }
+    else if (this.User.IsInRole("Screener") || this.User.IsInRole("HiringManager") || this.User.IsInRole("StoreManager") || this.User.IsInRole("HiringSpecialist"))
+    {
+        Layout = "~/Views/Shared/_Layout_AdminUser.cshtml";
+    }
+    else
+    {
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+
+    //if (this.User.IsInRole("HiringManager"))
+    //{
+    //    Layout = "~/Views/Shared/_Layout_HiringManager.cshtml";
+    //}
+    //if (this.User.IsInRole("StoreManager"))
+    //{
+    //    Layout = "~/Views/Shared/_Layout_StoreManager.cshtml";
+    //}
+}

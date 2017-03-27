@@ -1,0 +1,16 @@
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\WCFAESJobs.WebService\bin\WCFAESJobs.WebService.dll.config
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\WCFAESJobs.WebService\bin\WCFAESJobs.WebService.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\WCFAESJobs.WebService\bin\WCFAESJobs.WebService.pdb
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\WCFAESJobs.WebService\bin\EntityFramework.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\WCFAESJobs.WebService\bin\EntityFramework.SqlServer.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\WCFAESJobs.WebService\bin\Microsoft.AspNet.Identity.Core.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\WCFAESJobs.WebService\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\WCFAESJobs.WebService\bin\WcfAESJobs.AccountLibrary.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\WCFAESJobs.WebService\bin\WcfAESJobs.AccountLibrary.pdb
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\WCFAESJobs.WebService\bin\EntityFramework.xml
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\WCFAESJobs.WebService\bin\EntityFramework.SqlServer.xml
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\WCFAESJobs.WebService\bin\Microsoft.AspNet.Identity.Core.xml
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\WCFAESJobs.WebService\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\WCFAESJobs.WebService\obj\Debug\WCFAESJobs.WebService.csprojResolveAssemblyReference.cache
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\WCFAESJobs.WebService\obj\Debug\WCFAESJobs.WebService.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\WCFAESJobs.WebService\obj\Debug\WCFAESJobs.WebService.pdb

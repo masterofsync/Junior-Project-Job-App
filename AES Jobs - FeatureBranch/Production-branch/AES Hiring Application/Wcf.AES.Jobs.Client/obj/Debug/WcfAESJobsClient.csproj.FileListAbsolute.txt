@@ -1,0 +1,732 @@
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\csc.exe
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\System.Collections.Immutable.dll
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\System.Reflection.Metadata.dll
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\vbc.exe
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\VBCSCompiler.exe
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\VBCSCompiler.exe.config
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WcfAESJobs.Client.dll.config
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WcfAESJobs.Client.dll
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WcfAESJobs.Client.pdb
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Antlr3.Runtime.dll
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\EntityFramework.dll
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\EntityFramework.SqlServer.dll
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.Core.dll
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.dll
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Cookies.dll
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.dll
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Facebook.dll
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Google.dll
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.OAuth.dll
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Twitter.dll
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Web.Infrastructure.dll
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Newtonsoft.Json.dll
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Owin.dll
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Helpers.dll
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Mvc.dll
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Optimization.dll
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Razor.dll
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.Deployment.dll
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.dll
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.Razor.dll
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WebGrease.dll
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Helpers.xml
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Mvc.xml
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Optimization.xml
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Razor.xml
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.xml
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.Deployment.xml
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.Razor.xml
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Antlr3.Runtime.pdb
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Newtonsoft.Json.xml
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\EntityFramework.xml
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\EntityFramework.SqlServer.xml
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.Core.xml
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.xml
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.xml
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Facebook.xml
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Cookies.xml
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.OAuth.xml
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Google.xml
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Twitter.xml
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\obj\Debug\WcfAESJobsClient.csprojResolveAssemblyReference.cache
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\obj\Debug\WcfAESJobs.Client.dll
+C:\oitbarz\AES Jobs\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\obj\Debug\WcfAESJobs.Client.pdb
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\csc.exe
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\vbc.exe
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\VBCSCompiler.exe
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WcfAESJobs.Client.dll.config
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WcfAESJobs.Client.dll
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WcfAESJobs.Client.pdb
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Antlr3.Runtime.dll
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\EntityFramework.dll
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\EntityFramework.SqlServer.dll
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.dll
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.dll
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Newtonsoft.Json.dll
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Owin.dll
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Helpers.dll
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Mvc.dll
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Optimization.dll
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Razor.dll
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.dll
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.Razor.dll
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WebGrease.dll
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Helpers.xml
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Mvc.xml
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Optimization.xml
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Razor.xml
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.xml
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.Razor.xml
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Antlr3.Runtime.pdb
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Newtonsoft.Json.xml
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\EntityFramework.xml
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\EntityFramework.SqlServer.xml
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.xml
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.xml
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\obj\Debug\WcfAESJobsClient.csprojResolveAssemblyReference.cache
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\obj\Debug\WcfAESJobs.Client.dll
+C:\Users\Ryan\Desktop\316 Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\obj\Debug\WcfAESJobs.Client.pdb
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\csc.exe
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\vbc.exe
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\VBCSCompiler.exe
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WcfAESJobs.Client.dll.config
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WcfAESJobs.Client.dll
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WcfAESJobs.Client.pdb
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Antlr3.Runtime.dll
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\EntityFramework.dll
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\EntityFramework.SqlServer.dll
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.dll
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.dll
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Newtonsoft.Json.dll
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Owin.dll
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Helpers.dll
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Mvc.dll
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Optimization.dll
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Razor.dll
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.dll
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.Razor.dll
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WebGrease.dll
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Helpers.xml
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Mvc.xml
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Optimization.xml
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Razor.xml
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.xml
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.Razor.xml
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Antlr3.Runtime.pdb
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Newtonsoft.Json.xml
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\EntityFramework.xml
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\EntityFramework.SqlServer.xml
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.xml
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.xml
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\obj\Debug\WcfAESJobs.Client.dll
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\obj\Debug\WcfAESJobs.Client.pdb
+C:\Users\Ryan\Documents\Junior Project\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\obj\Debug\WcfAESJobsClient.csprojResolveAssemblyReference.cache
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\obj\Debug\WcfAESJobsClient.csprojResolveAssemblyReference.cache
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\obj\Debug\WcfAESJobs.Client.dll
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\obj\Debug\WcfAESJobs.Client.pdb
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\csc.exe
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\vbc.exe
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\VBCSCompiler.exe
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WcfAESJobs.Client.dll.config
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WcfAESJobs.Client.dll
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WcfAESJobs.Client.pdb
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Antlr3.Runtime.dll
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\EntityFramework.dll
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\EntityFramework.SqlServer.dll
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.dll
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.dll
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Newtonsoft.Json.dll
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Owin.dll
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Helpers.dll
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Mvc.dll
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Optimization.dll
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Razor.dll
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.dll
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.Razor.dll
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WcfAESJobs.LoginService.dll
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WebGrease.dll
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WcfAESJobs.LoginService.pdb
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Helpers.xml
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Mvc.xml
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Optimization.xml
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Razor.xml
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.xml
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.Razor.xml
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Antlr3.Runtime.pdb
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Newtonsoft.Json.xml
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\EntityFramework.xml
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\EntityFramework.SqlServer.xml
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.xml
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.xml
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WcfAESJobs.AccountLibrary.dll
+C:\Users\Ryan\Documents\Junior Project2\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WcfAESJobs.AccountLibrary.pdb
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\csc.exe
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\vbc.exe
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\VBCSCompiler.exe
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WcfAESJobs.Client.dll.config
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WcfAESJobs.Client.dll
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WcfAESJobs.Client.pdb
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Antlr3.Runtime.dll
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\EntityFramework.dll
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\EntityFramework.SqlServer.dll
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.dll
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.dll
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Newtonsoft.Json.dll
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Owin.dll
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Helpers.dll
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Mvc.dll
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Optimization.dll
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Razor.dll
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.dll
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.Razor.dll
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WcfAESJobs.AccountLibrary.dll
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WcfAESJobs.LoginService.dll
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WebGrease.dll
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WcfAESJobs.AccountLibrary.pdb
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WcfAESJobs.LoginService.pdb
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Helpers.xml
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Mvc.xml
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Optimization.xml
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Razor.xml
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.xml
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.Razor.xml
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Antlr3.Runtime.pdb
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Newtonsoft.Json.xml
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\EntityFramework.xml
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\EntityFramework.SqlServer.xml
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.xml
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.xml
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\obj\Debug\WcfAESJobsClient.csprojResolveAssemblyReference.cache
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\obj\Debug\WcfAESJobs.Client.dll
+C:\Users\Zed\Desktop\aes branch\AES Hiring Application\Wcf.AES.Jobs.Client\obj\Debug\WcfAESJobs.Client.pdb
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\csc.exe
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\vbc.exe
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\VBCSCompiler.exe
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WcfAESJobs.Client.dll.config
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WcfAESJobs.Client.dll
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WcfAESJobs.Client.pdb
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Antlr3.Runtime.dll
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\EntityFramework.dll
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\EntityFramework.SqlServer.dll
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.dll
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.dll
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Newtonsoft.Json.dll
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Owin.dll
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Helpers.dll
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Mvc.dll
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Optimization.dll
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Razor.dll
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.dll
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.Razor.dll
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WcfAESJobs.AccountLibrary.dll
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WebGrease.dll
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WcfAESJobs.AccountLibrary.pdb
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Helpers.xml
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Mvc.xml
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Optimization.xml
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Razor.xml
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.xml
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.Razor.xml
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Antlr3.Runtime.pdb
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Newtonsoft.Json.xml
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\EntityFramework.xml
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\EntityFramework.SqlServer.xml
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.xml
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.xml
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\obj\Debug\WcfAESJobsClient.csprojResolveAssemblyReference.cache
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\obj\Debug\WcfAESJobs.Client.dll
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\obj\Debug\WcfAESJobs.Client.pdb
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\BotDetect.dll
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\BotDetect.Web.Mvc.dll
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\reCAPTCHA.MVC.dll
+C:\Users\Zed\Desktop\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\SuperCaptcha.Mvc.dll
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\csc.exe
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\System.Collections.Immutable.dll
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\System.Reflection.Metadata.dll
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\vbc.exe
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\VBCSCompiler.exe
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\VBCSCompiler.exe.config
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WcfAESJobs.Client.dll.config
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WcfAESJobs.Client.dll
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WcfAESJobs.Client.pdb
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Antlr3.Runtime.dll
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\BotDetect.dll
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\BotDetect.Web.Mvc.dll
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\EntityFramework.dll
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\EntityFramework.SqlServer.dll
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.Core.dll
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.dll
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Cookies.dll
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.dll
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Facebook.dll
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Google.dll
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.OAuth.dll
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Twitter.dll
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Web.Infrastructure.dll
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Newtonsoft.Json.dll
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Owin.dll
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\reCAPTCHA.MVC.dll
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\SuperCaptcha.Mvc.dll
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Helpers.dll
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Mvc.dll
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Optimization.dll
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Razor.dll
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.Deployment.dll
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.dll
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.Razor.dll
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WcfAESJobs.AccountLibrary.dll
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WebGrease.dll
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WcfAESJobs.AccountLibrary.pdb
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Helpers.xml
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Mvc.xml
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Optimization.xml
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Razor.xml
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.xml
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.Deployment.xml
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.Razor.xml
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Antlr3.Runtime.pdb
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Newtonsoft.Json.xml
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\EntityFramework.xml
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\EntityFramework.SqlServer.xml
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.Core.xml
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.xml
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.xml
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Facebook.xml
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Cookies.xml
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.OAuth.xml
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Google.xml
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Twitter.xml
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\obj\Debug\WcfAESJobsClient.csprojResolveAssemblyReference.cache
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\obj\Debug\WcfAESJobs.Client.dll
+C:\aes\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\obj\Debug\WcfAESJobs.Client.pdb
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\csc.exe
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\vbc.exe
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\VBCSCompiler.exe
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WcfAESJobs.Client.dll.config
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WcfAESJobs.Client.dll
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WcfAESJobs.Client.pdb
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Antlr3.Runtime.dll
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\BotDetect.dll
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\BotDetect.Web.Mvc.dll
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\EntityFramework.dll
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\EntityFramework.SqlServer.dll
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.dll
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.dll
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Newtonsoft.Json.dll
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Owin.dll
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\reCAPTCHA.MVC.dll
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\SuperCaptcha.Mvc.dll
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Helpers.dll
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Mvc.dll
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Optimization.dll
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Razor.dll
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.dll
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.Razor.dll
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WcfAESJobs.AccountLibrary.dll
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WebGrease.dll
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WcfAESJobs.AccountLibrary.pdb
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Helpers.xml
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Mvc.xml
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Optimization.xml
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Razor.xml
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.xml
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.Razor.xml
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Antlr3.Runtime.pdb
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Newtonsoft.Json.xml
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\EntityFramework.xml
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\EntityFramework.SqlServer.xml
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.xml
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.xml
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\obj\Debug\WcfAESJobsClient.csprojResolveAssemblyReference.cache
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\obj\Debug\WcfAESJobs.Client.dll
+C:\Users\Zed\Desktop\Main_se\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\obj\Debug\WcfAESJobs.Client.pdb
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\csc.exe
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\vbc.exe
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\VBCSCompiler.exe
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WcfAESJobs.Client.dll.config
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WcfAESJobs.Client.dll
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WcfAESJobs.Client.pdb
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Antlr3.Runtime.dll
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\BotDetect.dll
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\BotDetect.Web.Mvc.dll
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\EntityFramework.dll
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\EntityFramework.SqlServer.dll
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.dll
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.dll
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Newtonsoft.Json.dll
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Owin.dll
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\reCAPTCHA.MVC.dll
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\SuperCaptcha.Mvc.dll
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Helpers.dll
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Mvc.dll
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Optimization.dll
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Razor.dll
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.dll
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.Razor.dll
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WcfAESJobs.AccountLibrary.dll
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WebGrease.dll
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WcfAESJobs.AccountLibrary.pdb
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Helpers.xml
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Mvc.xml
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Optimization.xml
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Razor.xml
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.xml
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.Razor.xml
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Antlr3.Runtime.pdb
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Newtonsoft.Json.xml
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\EntityFramework.xml
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\EntityFramework.SqlServer.xml
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.xml
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.xml
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\obj\Debug\WcfAESJobsClient.csprojResolveAssemblyReference.cache
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\obj\Debug\WcfAESJobs.Client.dll
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\obj\Debug\WcfAESJobs.Client.pdb
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\fonts\opensans-light-webfont.woff
+C:\Users\Ryan\Documents\Junior Project 4.11\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\BeginCollectionItem.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\csc.exe
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\System.Collections.Immutable.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\System.Reflection.Metadata.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\vbc.exe
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\VBCSCompiler.exe
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\roslyn\VBCSCompiler.exe.config
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\fonts\opensans-light-webfont.woff
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WcfAESJobs.Client.dll.config
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WcfAESJobs.Client.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WcfAESJobs.Client.pdb
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Antlr3.Runtime.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\BeginCollectionItem.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\BotDetect.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\BotDetect.Web.Mvc.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\EntityFramework.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\EntityFramework.SqlServer.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.Core.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Cookies.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Facebook.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Google.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.OAuth.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Twitter.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Web.Infrastructure.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Newtonsoft.Json.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Owin.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\reCAPTCHA.MVC.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\SuperCaptcha.Mvc.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Helpers.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Mvc.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Optimization.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Razor.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.Deployment.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.Razor.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WcfAESJobs.AccountLibrary.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WebGrease.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\WcfAESJobs.AccountLibrary.pdb
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Helpers.xml
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Mvc.xml
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Optimization.xml
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.Razor.xml
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.xml
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.Deployment.xml
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\System.Web.WebPages.Razor.xml
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Antlr3.Runtime.pdb
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Newtonsoft.Json.xml
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\EntityFramework.xml
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\EntityFramework.SqlServer.xml
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.Core.xml
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.xml
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.xml
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Facebook.xml
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Cookies.xml
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.OAuth.xml
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Google.xml
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.Twitter.xml
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\obj\Debug\WcfAESJobsClient.csprojResolveAssemblyReference.cache
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\obj\Debug\WcfAESJobs.Client.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\Wcf.AES.Jobs.Client\obj\Debug\WcfAESJobs.Client.pdb

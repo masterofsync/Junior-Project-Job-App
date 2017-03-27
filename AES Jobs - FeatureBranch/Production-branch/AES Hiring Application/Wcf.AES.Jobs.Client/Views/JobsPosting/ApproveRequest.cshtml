@@ -1,0 +1,120 @@
+﻿@model List<WcfAESJobs.Client.WebService.OpenJobs>
+@using WcfAESJobs.Client.WebService
+@{
+    ViewBag.Title = "ApproveRequest";
+}
+
+
+
+<style>
+    a {
+        text-decoration: none;
+    }
+
+    .panel-heading span {
+        margin-top: -20px;
+        font-size: 15px;
+    }
+
+    .row {
+        margin-top: 0px;
+        padding: 0 10px;
+    }
+
+    .clickable {
+        cursor: pointer;
+    }
+</style>
+
+<div class="curveunderheader"><span class="glyphicon glyphicon-folder-open"></span>&nbsp;&nbsp;Approve Job Postings</div>
+<br />
+
+
+@using (Html.BeginForm())
+{
+
+
+    @*<p>
+            @Html.TextBox("SearchString", null, new {@class="form-control col-md-3" })
+            <input class="form-control col-md-4" placeholder="SearchString" type="submit" value="Find Jobs" /><br>
+        </p>
+        <p></p>*@
+}
+<br /><br />
+
+<p></p>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="panel panel-info">
+            <div class="panel-heading clickable">
+                <h3 class="panel-title"><b>Pending Job Postings</b></h3>
+                <span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-up"></i></span>
+            </div>
+            <div class="panel-body">
+
+                <table class="table table-striped">
+                    @if (Model.Count > 0)
+                    {
+                        <tr>
+                            @*<th>
+                                    @Html.DisplayNameFor(model => model.Posting_ID)
+                                </th>*@
+                            <th>
+                                @*@Html.DisplayNameFor(model => model.Job_Title)*@
+                                Job Title
+                            </th>
+                            <th>
+                                @*@Html.DisplayNameFor(model => model.Job_Location)*@
+                                City
+                            </th>
+                            <th>
+                                @*@Html.DisplayNameFor(model => model.Job_Location)*@
+                                Location
+                            </th>
+                            <th>
+                                @*@Html.DisplayNameFor(model => model.Job_Location)*@
+                                Close Date
+                            </th>
+                            <th>Actions</th>
+                        </tr>
+
+                        foreach (var item in Model)
+                        {
+                            <tr>
+                                @*@<td>
+                                        @Html.DisplayFor(modelItem => item.Posting_ID)
+                                    </td>*@
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Job_Title)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Job_Location_City)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Job_Location)
+                                </td>
+                                <td>
+                                    @item.Close_Date.ToString("MM-dd-yyyy")
+                                </td>
+
+                                <td>
+                                    @Html.ActionLink("Details", "Details", new { id = item.Posting_ID, returnUrl = Request.QueryString["ReturnUrl"] }, new { @class = "btn btn-sm btn-warning" }) |
+                                    @Html.ActionLink("Approve", "SubmitApproval", new { id = item.Posting_ID, status = PostingStatus.Active }, new { @class = "btn btn-sm btn-success" }) |
+                                    @Html.ActionLink("Deny", "SubmitApproval", new { id = item.Posting_ID, status = PostingStatus.NotActive }, new { @class = "btn btn-sm btn-danger" })
+                                </td>
+                            </tr>
+
+                        }
+                    }
+                    else
+                    {
+                        <div class="alert alert-danger text-center">No Pending Job Request.</div>
+                    }
+                    
+                </table>
+
+            </div>
+        </div>
+    </div>
+</div>

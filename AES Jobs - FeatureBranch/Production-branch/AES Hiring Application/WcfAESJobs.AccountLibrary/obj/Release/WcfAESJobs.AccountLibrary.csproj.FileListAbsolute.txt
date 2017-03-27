@@ -1,0 +1,13 @@
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\WcfAESJobs.AccountLibrary\bin\Release\WcfAESJobs.AccountLibrary.dll.config
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\WcfAESJobs.AccountLibrary\bin\Release\WcfAESJobs.AccountLibrary.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\WcfAESJobs.AccountLibrary\bin\Release\WcfAESJobs.AccountLibrary.pdb
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\WcfAESJobs.AccountLibrary\bin\Release\EntityFramework.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\WcfAESJobs.AccountLibrary\bin\Release\EntityFramework.SqlServer.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\WcfAESJobs.AccountLibrary\bin\Release\Microsoft.AspNet.Identity.Core.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\WcfAESJobs.AccountLibrary\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\WcfAESJobs.AccountLibrary\bin\Release\EntityFramework.xml
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\WcfAESJobs.AccountLibrary\bin\Release\EntityFramework.SqlServer.xml
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\WcfAESJobs.AccountLibrary\bin\Release\Microsoft.AspNet.Identity.Core.xml
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\WcfAESJobs.AccountLibrary\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\WcfAESJobs.AccountLibrary\obj\Release\WcfAESJobs.AccountLibrary.dll
+C:\oitbarz\AES Jobs - FeatureBranch\Production-branch\AES Hiring Application\WcfAESJobs.AccountLibrary\obj\Release\WcfAESJobs.AccountLibrary.pdb

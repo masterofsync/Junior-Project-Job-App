@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="74a1c56dafec4be597b0335992e982a7" Name="Diagram1" ZoomLevel="86">
+        <EntityTypeShape EntityType="DB_9E5950_aes01Model.AnswerTable" Width="1.5" PointX="8.625" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_9E5950_aes01Model.ApplicantTable" Width="1.5" PointX="15.375" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_9E5950_aes01Model.Application" Width="1.5" PointX="6.625" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_9E5950_aes01Model.AspNetRole" Width="1.5" PointX="6.625" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_9E5950_aes01Model.AspNetUserClaim" Width="1.5" PointX="2.375" PointY="9.125" IsExpanded="false" />
+        <EntityTypeShape EntityType="DB_9E5950_aes01Model.AspNetUserLogin" Width="1.5" PointX="2.375" PointY="9.875" IsExpanded="false" />
+        <EntityTypeShape EntityType="DB_9E5950_aes01Model.AspNetUser" Width="1.5" PointX="4.75" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_9E5950_aes01Model.AvailableJob" Width="1.5" PointX="6.625" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_9E5950_aes01Model.JobApplication" Width="1.5" PointX="8.625" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_9E5950_aes01Model.Location" Width="1.5" PointX="4.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_9E5950_aes01Model.MultipleChoiceAnswer" Width="1.5" PointX="10.625" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_9E5950_aes01Model.Profile" Width="1.5" PointX="14.875" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_9E5950_aes01Model.QuestionList" Width="1.5" PointX="10.625" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_9E5950_aes01Model.StageTable" Width="1.5" PointX="8.5" PointY="7.375" IsExpanded="true" />
+        <AssociationConnector Association="DB_9E5950_aes01Model.FK_Cascasde_Delete_Answer" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_9E5950_aes01Model.FK_Questions_Answers" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_9E5950_aes01Model.FK_AvailableJobs_Application" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_9E5950_aes01Model.FK_Stage_Application" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_9E5950_aes01Model.FK_User_Application" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_9E5950_aes01Model.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_9E5950_aes01Model.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_9E5950_aes01Model.FK_AvailableJobs_ToTable" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_9E5950_aes01Model.FK_AvailableJobs_ToTable_1" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_9E5950_aes01Model.FK_Questions_MultipleChoiceAnswer" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_9E5950_aes01Model.AspNetUserRoles" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_9E5950_aes01Model.JobQuestions" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_9E5950_aes01Model.UserLocations" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="DB_9E5950_aes01Model.Education" Width="1.5" PointX="2.375" PointY="2.75" />
+        <EntityTypeShape EntityType="DB_9E5950_aes01Model.WorkHistory" Width="1.5" PointX="2.375" PointY="5.75" />
+        <AssociationConnector Association="DB_9E5950_aes01Model.FK_dbo_Education_dbo_AspNetUsers_UserId" />
+        <AssociationConnector Association="DB_9E5950_aes01Model.FK_dbo_workhistory_dbo_AspNetUsers_UserId" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

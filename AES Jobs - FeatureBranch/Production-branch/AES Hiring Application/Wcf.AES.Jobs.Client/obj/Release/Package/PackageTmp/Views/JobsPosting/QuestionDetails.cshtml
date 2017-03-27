@@ -1,0 +1,27 @@
+﻿@model IEnumerable<WcfAESJobs.Client.WebService.Question>
+
+@{
+    ViewBag.Title = "Question Details";
+}
+
+<div class="curveunderheader"><span class="glyphicon glyphicon-folder-open"></span>&nbsp;&nbsp;Question Details</div>
+<br />
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.FullQuestion)
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FullQuestion)
+            </td>
+        </tr>
+    }
+
+</table>
+<p>@Html.ActionLink("Back to List", "Index", null, new { @class = "btn btn-default" })</p>

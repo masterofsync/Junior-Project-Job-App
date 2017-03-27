@@ -1,0 +1,45 @@
+﻿@model WcfAESJobs.Client.WebService.QuestionIDJobID
+
+@{
+    ViewBag.Title = "RemoveQuestionFromJobById";
+}
+
+<div class="curveunderheader"><span class="glyphicon glyphicon-folder-open"></span>&nbsp;&nbsp;Remove Question From Job</div>
+<br />
+
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Select the question to add to job title.</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.Job_ID)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.QuestionID, "Question Title", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("QuestionID", null, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.QuestionID)
+            </div>
+        </div>
+
+
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Remove from Job" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Details", "Job", new { id = Model.Job_ID }, new { @class = "btn btn-default" })
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

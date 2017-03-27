@@ -1,0 +1,58 @@
+﻿@model IEnumerable<WcfAESJobs.Client.WebService.Job_Application>
+
+@{
+    ViewBag.Title = "Applications";
+}
+
+<div class="curveunderheader"><span class="glyphicon glyphicon-folder-open"></span>&nbsp;&nbsp;Application Status</div>
+<br />
+
+
+
+@if(Model.Any())
+{ 
+    <table class="table table-striped">
+        <tr>
+            <th>
+                Job Title
+            </th>
+            <th>
+               Location
+            </th>
+            <th>
+                Stage
+            </th>
+            <th>
+                Description
+            </th>
+
+            <th></th>
+        </tr>
+
+    @foreach (var item in Model) {
+        <tr>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.JobTitle)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Location)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StageName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StageDescription)
+            </td>
+
+        </tr>
+    }
+
+    </table>
+}
+
+else
+{
+    <div class="alert alert-danger text-center">No Job Applications. Navigate to "Job Postings" to apply for jobs!</div>
+}
+

@@ -1,0 +1,187 @@
+﻿@model WcfAESJobs.Client.Models.EmployeeModel
+@using WcfAESJobs.Client.WebService
+@{
+    ViewBag.Title = "Index";
+}
+<style>
+    a {
+        text-decoration: none;
+    }
+
+    .panel-heading span {
+        margin-top: -20px;
+        font-size: 15px;
+    }
+
+    .row {
+        margin-top: 0px;
+        padding: 0 10px;
+    }
+
+    .clickable {
+        cursor: pointer;
+    }
+
+    .size12 {
+        font-size: 12px;
+    }
+</style>
+<div class="curveunderheader"><span class="glyphicon glyphicon-folder-open"></span>&nbsp;&nbsp;Employees</div>
+
+<p class="text-success"><br />@ViewBag.StatusMessage</p>
+<p class="text-danger"><br />@ViewBag.StatusMessageRed</p>
+<br />
+<div class="row">
+    <div class="col-md-12">
+        <div class="panel panel-info">
+            <div class="panel-heading clickable">
+                <h3 class="panel-title"><b>Hired Employees</b></h3>
+                <span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-up"></i></span>
+            </div>
+            <div class="panel-body">
+
+                <table class="table">
+                    @if (Model.Hired.Count > 0)
+                    {
+                        <tr>
+                            <th>
+                                Applicant Name
+                            </th>
+                            <th>
+                                Job Title
+                            </th>
+                            <th>
+                                Location
+                            </th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+
+                        foreach (var item in Model.Hired)
+                        {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.ApplicantName)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.JobTitle)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Location)
+                                </td>
+                                <td></td>
+                                <td>
+
+                                    @Html.ActionLink("Details", "Details", new { id = item.ID }, new { @class = "btn btn-default btn-sm" })
+                                </td>
+                                <td>
+                                    @Html.ActionLink("  Remove From List  ", "SubmitGrade", new { result = AppStages.Complete, App_ID = item.ID, returnURL = ViewBag.returnURL }, new { @class = "btn btn-warning btn-sm" })
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <th>
+                                No Applicants in the hiring process.
+                            </th>
+                        </tr>
+                    }
+                    
+
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="panel panel-info">
+            <div class="panel-heading clickable">
+                <h3 class="panel-title"><b>Potential Applicants</b></h3>
+                <span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-up"></i></span>
+            </div>
+            <div class="panel-body">
+
+
+                <table class="table">
+                    @if (Model.WaitList.Count != 0)
+                    {
+                        <tr>
+                            <th>
+                                Applicant Name
+                            </th>
+                            <th>
+                                Job Title
+                            </th>
+                            <th>
+                                Location
+                            </th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+
+                        foreach (var item in Model.WaitList)
+                        {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.ApplicantName)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.JobTitle)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Location)
+                                </td>
+                                <td>
+                                    @Html.ActionLink("Review Appliction", "ReviewInterview", new { id = item.ID, returnURL = ViewBag.returnURL }, new { @class = "btn btn-default btn-sm" })
+                                </td>
+                                <td>
+                                    @Html.ActionLink("  Hire  ", "SubmitGrade", new { result = AppStages.Hired, App_ID = item.ID, returnURL = ViewBag.returnURL }, new { @class = "btn btn-success btn-sm" })
+                                </td>
+                                <td>
+                                    @Html.ActionLink("  Remove From List  ", "SubmitGrade", new { result = AppStages.Failed, App_ID = item.ID, returnURL = ViewBag.returnURL }, new { @class = "btn btn-warning btn-sm" })
+                                </td>
+                                
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <th>
+                                No waitlisted applicants.
+                            </th>
+                        </tr>
+                    }
+
+
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    jQuery(function ($) {
+        $('.panel-heading').on("click", function (e) {
+            if ($(this).hasClass('panel-collapsed')) {
+                // expand the panel
+                $(this).parents('.panel').find('.panel-body').slideDown();
+                $(this).removeClass('panel-collapsed');
+                $(this).find('i').removeClass('glyphicon-chevron-down').addClass('glyphicon-chevron-up');
+            }
+            else {
+                // collapse the panel
+                $(this).parents('.panel').find('.panel-body').slideUp();
+                $(this).addClass('panel-collapsed');
+                $(this).find('i').removeClass('glyphicon-chevron-up').addClass('glyphicon-chevron-down');
+            }
+        });
+    });
+</script>

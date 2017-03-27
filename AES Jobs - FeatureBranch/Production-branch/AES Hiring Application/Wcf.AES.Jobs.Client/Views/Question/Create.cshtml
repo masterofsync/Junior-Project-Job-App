@@ -1,0 +1,89 @@
+﻿@model WcfAESJobs.Client.Models.QuestionCreateViewModel
+
+@{
+    ViewBag.Title = "Create";
+    
+    
+}
+
+<div class="curveunderheader"><span class="glyphicon glyphicon-folder-open"></span>&nbsp;&nbsp;Create Job Application Question</div>
+<br />
+
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.Type, "Type", htmlAttributes: new { @class = "control-label col-md-2" } )
+            <div class="col-md-10">
+                @Html.EnumDropDownListFor(model => model.Type, // Model field that will be used to store user selection
+                              null, // Text for the first 'default' option
+                       new { @class = "form-control", id = "SelectedType" })
+                @*@Html.DropDownList( "Question_Type", null, new { @class = "form-control" })*@
+                @Html.ValidationMessageFor(model => model.Type)
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.question.QuestionTitle, "Question Title" , htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.question.QuestionTitle, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.question.QuestionTitle, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.question.FullQuestion, "Full Question", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.question.FullQuestion, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.question.FullQuestion, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+
+        <div class="form-group" id="IncludeYesNo">
+            @Html.LabelFor(model => model.question.C_Answer, "Correct Answer", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                @Html.EnumDropDownListFor(model => model.question.C_Answer, // Model field that will be used to store user selection
+                              null, // Text for the first 'default' option
+                       new { @class = "form-control", id = "IncludeYesNo" })
+                    @*@Html.DropDownList( "Question_Type", null, new { @class = "form-control" })*@
+                @Html.ValidationMessageFor(model => model.question.C_Answer)
+                </div>
+            </div>
+ 
+
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <input type="submit" value="Create" class="btn btn-default" />
+                    </div>
+                </div>
+            </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index", null, new { @class = "btn btn-default" })
+</div>
+
+@section Scripts 
+{
+    @Scripts.Render("~/bundles/jqueryval")
+    <script>
+        $(document).ready(function () {
+
+        $("#SelectedType").change(function(){
+            if($("#SelectedType :selected").text()==="PreApplication")
+            {
+                $("#IncludeYesNo").show();
+            }
+            else
+            {
+                $("#IncludeYesNo").hide();
+            }
+        });
+
+    });
+    </script>
+}

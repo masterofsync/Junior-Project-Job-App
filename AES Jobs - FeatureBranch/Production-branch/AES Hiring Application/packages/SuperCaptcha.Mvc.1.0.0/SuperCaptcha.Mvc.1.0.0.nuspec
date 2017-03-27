@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>SuperCaptcha.Mvc</id>
+    <version>1.0.0</version>
+    <title>Captcha control for MVC</title>
+    <authors>Pramod Hegde</authors>
+    <owners>Pramod Hegde</owners>
+    <projectUrl>https://supercaptcha.codeplex.com/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This library allows you to create captcha control in Asp.Net MVC. This version of library is built in .net framework 4.0 and hence supports 4.0 and higher versions of MVC.
+This has a support for model binding</description>
+    <dependencies>
+      <dependency id="jQuery" version="2.1.1" />
+      <dependency id="jQuery.Validation" version="1.12.0" />
+    </dependencies>
+  </metadata>
+</package>

@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        body {
+            background-color: steelblue;
+        }
+        .yourDiv{
+           
+  position:absolute;
+  top: 150px;
+  left:15%;
+  color:white;
+  font-weight:100;
+  font-size:60px;
+  
+}
+
+    .carousel,
+    .item,
+    .active {
+        height: 102%;
+    }
+
+    .carousel-inner {
+        height: 100%;
+        width: 100%;
+    }
+
+    /* Background images are set within the HTML using inline CSS, not here */
+
+    .fill {
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+
+    
+</style>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>A</title>
+</head>
+
+<body>
+    @section carousel{
+    <!-- Full Page Image Background Carousel Header -->
+    <div id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for Slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill" style="background-image: url(Content/Images/HomepageImage1.jpg)">
+                    <div class="yourDiv">Want to work with us?<span style="font-size:26px"><br />We hire hundreds every month! Apply now!</span><br />
+                    <a>@Html.ActionLink(" View Available Jobs ", "Index", "Applicant", null, new { @class = "btn btn-info btn-lg" })</a>
+                </div>
+                </div>
+                <div class="carousel-caption">
+                    @*<h2 style="color:black">If you ain’t making waves, you ain’t kickin’ hard enough!</h2>*@
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the first background image using inline CSS below. -->
+                <div class="fill" style="background-image: url(Content/Images/HomepageImage3.jpg)">
+                    <div class="yourDiv">If you can read this, you're qualified.<span style="font-size:26px"><br />Hurry before we change the text!</span><br />
+                        <a>@Html.ActionLink(" View Available Jobs ", "Index", "Applicant", null, new { @class = "btn btn-info btn-lg" })</a>
+                    </div>
+                </div>
+                <div class="carousel-caption">
+                    @*<h2 style="color:black">We know who our customer is!</h2>*@
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the second background image using inline CSS below. -->
+                <div class="fill" style="background-image: url(Content/Images/HomepageImage2.jpg)">
+                    <div class="yourDiv">We promote Diversity!<span style="font-size:26px"><br />Aplica Ya!</span><br />
+                        <a>@Html.ActionLink(" View Available Jobs ", "Index", "Applicant", null, new { @class = "btn btn-info btn-lg" })</a>
+                    </div>
+                </div>
+                <div class="carousel-caption">
+                    @*<h2 style="color:black">Treat youself to a little retail therapy!</h2>*@
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+
+    </div>
+}
+    
+<!-- Script to Activate the Carousel -->
+    <script>
+        $('.carousel').carousel({
+            interval: 5000 //changes the speed
+        })
+    </script>
+</body>
+</html>

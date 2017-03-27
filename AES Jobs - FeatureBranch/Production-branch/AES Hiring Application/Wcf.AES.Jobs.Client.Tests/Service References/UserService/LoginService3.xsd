@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Microsoft.AspNet.Identity.EntityFramework" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Microsoft.AspNet.Identity.EntityFramework" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="IdentityUser">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:IdentityUserOfstringIdentityUserLoginIdentityUserRoleIdentityUserClaim39AeZpW1">
+        <xs:sequence />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="IdentityUser" nillable="true" type="tns:IdentityUser" />
+  <xs:complexType name="IdentityUserOfstringIdentityUserLoginIdentityUserRoleIdentityUserClaim39AeZpW1">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="IdentityUserOf{0}{1}{2}{3}{#}" Namespace="http://schemas.datacontract.org/2004/07/Microsoft.AspNet.Identity.EntityFramework" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="string" Namespace="http://www.w3.org/2001/XMLSchema" />
+          <GenericParameter Name="IdentityUserLogin" Namespace="http://schemas.datacontract.org/2004/07/Microsoft.AspNet.Identity.EntityFramework" />
+          <GenericParameter Name="IdentityUserRole" Namespace="http://schemas.datacontract.org/2004/07/Microsoft.AspNet.Identity.EntityFramework" />
+          <GenericParameter Name="IdentityUserClaim" Namespace="http://schemas.datacontract.org/2004/07/Microsoft.AspNet.Identity.EntityFramework" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AccessFailedCount" type="xs:int" />
+      <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EmailConfirmed" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Id" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LockoutEnabled" type="xs:boolean" />
+      <xs:element minOccurs="0" name="LockoutEndDateUtc" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="PasswordHash" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PhoneNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PhoneNumberConfirmed" type="xs:boolean" />
+      <xs:element minOccurs="0" name="SecurityStamp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TwoFactorEnabled" type="xs:boolean" />
+      <xs:element minOccurs="0" name="UserName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="IdentityUserOfstringIdentityUserLoginIdentityUserRoleIdentityUserClaim39AeZpW1" nillable="true" type="tns:IdentityUserOfstringIdentityUserLoginIdentityUserRoleIdentityUserClaim39AeZpW1" />
+</xs:schema>

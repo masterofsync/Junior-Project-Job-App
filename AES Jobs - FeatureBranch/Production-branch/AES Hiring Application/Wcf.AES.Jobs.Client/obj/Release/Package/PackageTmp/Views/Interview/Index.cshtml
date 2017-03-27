@@ -1,0 +1,159 @@
+﻿@model WcfAESJobs.Client.Models.InterviewIndexModel
+
+@{
+    ViewBag.Title = "Index";
+}
+<style>
+     a {
+        text-decoration: none;
+    }
+
+    .panel-heading span {
+        margin-top: -20px;
+        font-size: 15px;
+    }
+
+    .row {
+        margin-top: 0px;
+        padding: 0 10px;
+    }
+
+    .clickable {
+        cursor: pointer;
+    }
+    .size12{
+        font-size:12px;
+    }
+ 
+
+</style>
+<div class="curveunderheader"><span class="glyphicon glyphicon-folder-open"></span>&nbsp;&nbsp;Interviews</div>
+
+<p class="text-success"><br />@ViewBag.StatusMessage</p>
+<br />
+<div class="row">
+    <div class="col-md-12">
+        <div class="panel panel-info">
+            <div class="panel-heading clickable">
+                <h3 class="panel-title"><b>Interview Applications</b></h3>
+                <span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-up"></i></span>
+            </div>
+            <div class="panel-body">
+
+                <table class="table">
+                    <tr>
+                        <th>
+                            Applicant Name
+                        </th>
+                        <th>
+                            Job Title
+                        </th>
+                        <th>
+                            Location
+                        </th>
+                        <th></th>
+                    </tr>
+
+                    @foreach (var item in Model.Interviews)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.ApplicantName)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.JobTitle)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Location)
+                            </td>
+                            <td>
+                                @Html.ActionLink("Details", "Details", new { id = item.ID }, new { @class = "btn btn-default btn-sm" })
+                            </td>
+                        </tr>
+                    }
+
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="panel panel-info">
+            <div class="panel-heading clickable">
+                <h3 class="panel-title"><b>Interview Reviews</b></h3>
+                <span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-up"></i></span>
+            </div>
+            <div class="panel-body">
+
+
+                <table class="table">
+                    @if (Model.InterviewReviews.Count != 0)
+                    {
+                        <tr>
+                            <th>
+                                Applicant Name
+                            </th>
+                            <th>
+                                Job Title
+                            </th>
+                            <th>
+                                Location
+                            </th>
+                            <th></th>
+                        </tr>
+
+                        foreach (var item in Model.InterviewReviews)
+                        {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.ApplicantName)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.JobTitle)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Location)
+                                </td>
+                                <td>
+                                    @Html.ActionLink("Review Appliction", "ReviewInterview", new { id = item.ID }, new { @class = "btn btn-default btn-sm" })
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <th>
+                                No Interviews to review.
+                            </th>
+                        </tr>
+                    }
+
+
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    jQuery(function ($) {
+        $('.panel-heading').on("click", function (e) {
+            if ($(this).hasClass('panel-collapsed')) {
+                // expand the panel
+                $(this).parents('.panel').find('.panel-body').slideDown();
+                $(this).removeClass('panel-collapsed');
+                $(this).find('i').removeClass('glyphicon-chevron-down').addClass('glyphicon-chevron-up');
+            }
+            else {
+                // collapse the panel
+                $(this).parents('.panel').find('.panel-body').slideUp();
+                $(this).addClass('panel-collapsed');
+                $(this).find('i').removeClass('glyphicon-chevron-up').addClass('glyphicon-chevron-down');
+            }
+        });
+    });
+</script>

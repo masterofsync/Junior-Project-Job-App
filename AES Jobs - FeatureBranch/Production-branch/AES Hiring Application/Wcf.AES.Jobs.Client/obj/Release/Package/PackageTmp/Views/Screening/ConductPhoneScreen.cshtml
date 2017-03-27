@@ -1,0 +1,240 @@
+﻿@model WcfAESJobs.Client.Models.ScreeningModels
+
+@{
+    ViewBag.Title = "Phone Screen";
+}
+
+<style>
+    a {
+        text-decoration: none;
+    }
+
+    .panel-heading span {
+        margin-top: -20px;
+        font-size: 15px;
+    }
+
+    .row {
+        margin-top: 0px;
+        padding: 0 10px;
+    }
+
+    .clickable {
+        cursor: pointer;
+    }
+
+    textarea {
+        resize: none;
+    }
+
+        textarea.input-validation-error {
+            border-color: red;
+        }
+</style>
+<div class="curveunderheader"><span class="glyphicon glyphicon-folder-open"></span>&nbsp;&nbsp;Phone Interview</div>
+<br />
+<div class="row">
+    <div class="col-md-12">
+        <div class="panel panel-info">
+            <div class="panel-heading clickable">
+                <h3 class="panel-title"><b>Applicant Information</b></h3>
+                <span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-up"></i></span>
+            </div>
+            <div class="panel-body">
+
+                <div>
+                    <table>
+                        <tr>
+                            <td>
+                                <b class="control-label"> First Name</b>
+                            </td>
+                            <td>
+                                :  @Html.DisplayFor(model => model.FirstName)
+                            </td>
+                        </tr>
+
+
+                        <tr>
+                            <td>
+                                <b class="control-label"> Last Name</b>
+                            </td>
+                            <td>
+                                : @Html.DisplayFor(model => model.LastName)
+                            </td>
+                        </tr>
+
+
+                        <tr>
+                            <td><b class="control-label">Phone </b></td>
+                            <td>: @Html.DisplayFor(model => model.PhoneNumber)</td>
+                        </tr>
+
+                    </table>
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+        @using (Html.BeginForm())
+        {
+            <table class="table table-striped">
+                <tr>
+                    <th>
+                        Questions
+                    </th>
+                    <th>
+                        Interviewer Comments
+                    </th>
+                    <th></th>
+                </tr>
+
+                @Html.HiddenFor(m => Model.ApplicationID)
+                @for (int i = 0; i < Model.PhoneQuestions.Count; i++)
+                {
+                    <div class="form-group">
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(m => Model.PhoneQuestions[i].fullQuestion)
+                                @Html.HiddenFor(m => Model.PhoneQuestions[i].questionID)
+                                @Html.HiddenFor(m => Model.PhoneQuestions[i].fullQuestion)
+                            </td>
+                            <td>
+                                @Html.TextAreaFor(m => Model.PhoneQuestions[i].answer, new { @class = "form-control", @required = "required", rows = "6", cols = "10" })
+                                @Html.ValidationMessageFor(m => Model.PhoneQuestions[i].answer)
+                            </td>
+                        </tr>
+                    </div>
+                }
+            </table><br />
+
+
+
+            @Html.AntiForgeryToken()
+            <div class="form-group col-sm-12">
+                <div>
+                    <input type="submit" value="Submit" class="btn btn-default" />&nbsp;&nbsp;<form><input class="btn btn-default" type="button" value="Back" onclick="history.go(-1);return true;"></form>
+                </div>
+            </div>
+
+        }
+    </div>
+</div>
+@*
+
+    }
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+            <h4>ApplicationModel</h4>
+            <hr />
+
+        </div>
+
+    }*@
+
+@*@using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+            <h4>QuestionForm</h4>
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+
+                @for (var i = 0; i < Model.Count; i++)
+                {
+                    <div class="form-group">
+                        <tr>
+                            <td>
+
+                                @Html.DisplayFor(x => Model[i].questionID)
+                                @Html.HiddenFor(x => Model[i].questionID)
+                            </td>
+
+                            <td>
+                                @Html.EditorFor(x => Model[i].answer)
+                            </td>
+                            <br />
+                            <br />
+                        </tr>
+                    </div>
+                }
+
+
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Save Changes" class="btn btn-default" />
+                </div>
+            </div>
+        </div>
+    }
+*@
+
+@*@using (Html.BeginForm(new { ApplicantID = 5}))
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+            <h4>QuestionForm</h4>
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <div class="form-group">
+
+                @for (var i = 0; i < Model.Count; i++)
+                {
+                    <tr>
+                        <td>
+                            @Html.HiddenFor(x => x[i].questionID)
+                            @Html.DisplayFor(x => x[i].questionID)
+                        </td>
+
+                        <td>
+                            @Html.EditorFor(x => x[i].answer)
+                        </td>
+                        <br />
+                        <br />
+                    </tr>
+                }
+
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Save Changes" class="btn btn-default" />
+                </div>
+            </div>
+        </div>
+    }*@
+
+<div class="col-sm-12">
+    @*@Html.ActionLink("Back to List", "Index",null,new{@class="btn-default btn"})*@
+
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+<script type="text/javascript">
+    jQuery(function ($) {
+        $('.panel-heading').on("click", function (e) {
+            if ($(this).hasClass('panel-collapsed')) {
+                // expand the panel
+                $(this).parents('.panel').find('.panel-body').slideDown();
+                $(this).removeClass('panel-collapsed');
+                $(this).find('i').removeClass('glyphicon-chevron-down').addClass('glyphicon-chevron-up');
+            }
+            else {
+                // collapse the panel
+                $(this).parents('.panel').find('.panel-body').slideUp();
+                $(this).addClass('panel-collapsed');
+                $(this).find('i').removeClass('glyphicon-chevron-up').addClass('glyphicon-chevron-down');
+            }
+        });
+    });
+</script>
