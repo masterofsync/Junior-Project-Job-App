@@ -1,8 +1,11 @@
 Software Engineering Junior Team Project By:
 
+
 Bikesh Maharjan  	- Architect/QA Lead
-Zaid Rashid 		- Scrum Master
-Ryan Kennell		- Product Owner 
+
+Zaid Rashid 		    - Scrum Master
+
+Ryan Kennell		    - Product Owner 
 
 
 The following are the Use Cases implemented in this web app using:
